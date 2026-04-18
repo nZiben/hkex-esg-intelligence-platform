@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: esg-chatbot-api
+    env: docker
+    rootDir: apps/api
+    plan: starter
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_BASE_URL
+        value: https://rtekkxiz.bja.sealos.run/v1
+      - key: LLM_MODEL
+        value: gpt-4o-mini
+      - key: EMBEDDING_MODEL
+        value: text-embedding-3-small
