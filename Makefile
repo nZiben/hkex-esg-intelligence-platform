@@ -1,4 +1,4 @@
-.PHONY: help api web ingest eval report test-api lint
+.PHONY: help api web ingest eval report finetune test-api lint
 
 help:
 	@echo "Targets:"
@@ -6,6 +6,7 @@ help:
 	@echo "  web      - Run Next.js frontend"
 	@echo "  ingest   - Run bootstrap ingestion pipeline"
 	@echo "  eval     - Run evaluation suite"
+	@echo "  finetune - Run real retriever fine-tuning pipeline"
 	@echo "  report   - Generate report charts/csv artifacts"
 	@echo "  test-api - Run backend tests"
 
@@ -20,6 +21,9 @@ ingest:
 
 eval:
 	python scripts/run_eval.py
+
+finetune:
+	python scripts/run_retriever_finetune.py --data-dir data --epochs 1
 
 report:
 	python scripts/generate_report_artifacts.py

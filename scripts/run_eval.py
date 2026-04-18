@@ -18,7 +18,7 @@ from app.db import SessionLocal, init_db
 from app.models import ChatLog, Company, Prediction
 from app.utils.rating import rating_to_ordinal
 from packages.ml.evaluate import EvalResult, passes_thresholds
-from packages.ml.fine_tune_gate import fine_tune_plan, should_fine_tune
+from packages.ml.fine_tune_gate import fine_tune_plan, finetune_artifact_status, should_fine_tune
 
 
 def evaluate_prediction_mae() -> float:
@@ -135,6 +135,7 @@ def main() -> None:
         "need_fine_tuning": need_tune,
         "failing_metrics": failing,
         "fine_tune_plan": fine_tune_plan(failing),
+        "fine_tune_artifacts": finetune_artifact_status(),
     }
 
     out_file = report_dir / "eval_results.json"

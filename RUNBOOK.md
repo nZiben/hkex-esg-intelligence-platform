@@ -30,6 +30,16 @@ python scripts/run_eval.py
 python scripts/generate_report_artifacts.py
 ```
 
+## Fine-tuning (real retriever training)
+
+```bash
+python scripts/run_retriever_finetune.py --data-dir data --epochs 1
+```
+
+Output:
+- `artifacts/finetuned-retriever/retriever_triplets.jsonl`
+- `artifacts/finetuned-retriever/finetune_report.json`
+
 ## Submission artifacts
 
 - `reports/eval_results.json`

@@ -1,11 +1,20 @@
 from functools import lru_cache
+from pathlib import Path
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+REPO_ROOT = Path(__file__).resolve().parents[4]
+ROOT_ENV_FILE = REPO_ROOT / ".env"
+DEFAULT_SQLITE_URL = f"sqlite:///{(REPO_ROOT / 'esg_chatbot.db').as_posix()}"
+
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
+    model_config = SettingsConfigDict(
+        env_file=(".env", str(ROOT_ENV_FILE)),
+        env_file_encoding="utf-8",
+        extra="ignore",
+    )
 
     app_name: str = "Project 7 ESG Chatbot API"
     app_version: str = "0.1.0"
@@ -14,7 +23,7 @@ class Settings(BaseSettings):
     api_port: int = Field(default=8000, alias="API_PORT")
 
     database_url: str = Field(
-        default="sqlite:///./esg_chatbot.db",
+        default=DEFAULT_SQLITE_URL,
         alias="DATABASE_URL",
     )
 

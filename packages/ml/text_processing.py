@@ -40,3 +40,7 @@ def infer_stock_code_from_filename(path: str | Path) -> str:
     name = Path(path).stem
     digits = "".join(ch for ch in name if ch.isdigit())
     return digits.zfill(5)[-5:]
+
+
+# Backward-compatible alias for older imports.
+infer_stock_code = infer_stock_code_from_filename

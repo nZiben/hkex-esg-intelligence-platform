@@ -24,7 +24,7 @@ from app.services.nlp import aggregate_sentiment, classify_topic, sentence_split
 from app.services.openai_client import embed_text
 from app.services.prediction import baseline_predict
 from app.utils.rating import rating_to_ordinal
-from packages.ml.text_processing import chunk_text, clean_pdf_text, infer_stock_code
+from packages.ml.text_processing import chunk_text, clean_pdf_text, infer_stock_code_from_filename
 
 try:
     import fitz  # type: ignore

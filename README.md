@@ -98,3 +98,29 @@ Default target thresholds:
 - p95 latency `<= 8s`
 
 If gates fail, use `packages/ml/fine_tune_gate.py` to trigger retriever/reranker hard-negative training, then optional LoRA workflow.
+
+## Real Fine-Tuning (Optional, but implemented)
+
+This repo includes a **real retriever fine-tuning pipeline** (triplet loss, not a mock):
+
+```bash
+python scripts/run_retriever_finetune.py --data-dir data --epochs 1
+```
+
+What it does:
+- Builds triplets from ESG data (DB chunks if available, otherwise `JSON*.zip` fallback)
+- Fine-tunes `sentence-transformers/all-MiniLM-L6-v2` using triplet loss
+- Saves model checkpoint and a training report
+
+Artifacts produced:
+- `artifacts/finetuned-retriever/retriever_triplets.jsonl`
+- `artifacts/finetuned-retriever/` (model files)
+- `artifacts/finetuned-retriever/finetune_report.json`
+
+You can verify training status via:
+
+```bash
+python scripts/run_eval.py
+```
+
+and inspect `fine_tune_artifacts` in `reports/eval_results.json`.
