@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+
+# Data artifacts
+.data_cache/
+data/extracted/
+data/processed/
+reports/
+*.sqlite3
+*.db
+data/*.zip
+data/**/*.zip
+data/**/*.pdf
+data/**/*.pptx
+data/**/*.docx
+information about project/
+
+# Model/artifact outputs
+artifacts/
+checkpoints/
+models/
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.parquet
+*.feather
+
+# Logs/tmp
+*.log
+tmp/
+temp/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env
+.env.local
+.env.*.local
