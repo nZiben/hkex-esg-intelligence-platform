@@ -40,6 +40,18 @@ Output:
 - `artifacts/finetuned-retriever/retriever_triplets.jsonl`
 - `artifacts/finetuned-retriever/finetune_report.json`
 
+## On-demand ESG prediction
+
+Model artifacts live under local `models/` and are intentionally ignored by Git. Copy `models/retriever/` and `models/predictor/` from the teammate handoff folder before running this workflow.
+
+Start the API, then run:
+
+```bash
+curl -X POST http://localhost:8000/api/v1/predictions/00001
+```
+
+Use the web page at `/predictions` to run the same workflow from the UI.
+
 ## Submission artifacts
 
 - `reports/eval_results.json`

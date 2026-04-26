@@ -124,3 +124,21 @@ python scripts/run_eval.py
 ```
 
 and inspect `fine_tune_artifacts` in `reports/eval_results.json`.
+
+## Trained ESG Prediction Model
+
+This repo also integrates the teammate-trained HKQAA prediction model:
+
+- `models/retriever/`
+- `models/predictor/`
+- `esg_ratings.csv`
+
+The model weight files are intentionally not committed to Git. Keep them locally under `models/`, copied from the teammate handoff folder, before running on-demand predictions. The small `esg_ratings.csv` reference file is kept in the repo.
+
+Run an on-demand prediction through the API:
+
+```bash
+curl -X POST http://localhost:8000/api/v1/predictions/00001
+```
+
+The UI exposes this workflow at `/predictions`.
