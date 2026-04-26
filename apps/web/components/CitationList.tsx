@@ -11,7 +11,10 @@ export function CitationList({ citations }: { citations: any[] }) {
             <span>{c.doc_type}</span>
           </div>
           <p>{c.snippet}</p>
-          <small>{c.source_file}</small>
+          <small>
+            {c.source_file}
+            {c.page_no ? ` • page ${c.page_no}` : ''}
+          </small>
         </article>
       ))}
     </div>
