@@ -24,6 +24,8 @@ data/processed/
 reports/
 *.sqlite3
 *.db
+*.sqlite3-*
+*.db-*
 data/*.zip
 data/**/*.zip
 data/**/*.pdf

@@ -4,7 +4,7 @@ from collections.abc import Generator
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import create_engine, inspect, text
+from sqlalchemy import create_engine, event, inspect, text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session, sessionmaker
 
@@ -19,8 +19,18 @@ SQLITE_FALLBACK_URL = f"sqlite:///{(REPO_ROOT / 'esg_chatbot.db').as_posix()}"
 def _build_engine(database_url: str):
     connect_args: dict[str, Any] = {}
     if database_url.startswith("sqlite"):
-        connect_args = {"check_same_thread": False}
-    return create_engine(database_url, pool_pre_ping=True, connect_args=connect_args)
+        connect_args = {"check_same_thread": False, "timeout": 30}
+    db_engine = create_engine(database_url, pool_pre_ping=True, connect_args=connect_args)
+
+    if database_url.startswith("sqlite"):
+        @event.listens_for(db_engine, "connect")
+        def _set_sqlite_pragmas(dbapi_connection, connection_record) -> None:
+            cursor = dbapi_connection.cursor()
+            cursor.execute("PRAGMA journal_mode=WAL")
+            cursor.execute("PRAGMA busy_timeout=30000")
+            cursor.close()
+
+    return db_engine
 
 
 active_database_url = settings.database_url
