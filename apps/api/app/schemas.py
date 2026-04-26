@@ -55,9 +55,28 @@ class ESGSignalOut(OrmBaseModel):
 
 
 class PredictionOut(OrmBaseModel):
+    model_config = ConfigDict(from_attributes=True, protected_namespaces=())
+
     predicted_esg_rating: str
+    predicted_score: float | None = None
     confidence: float
     model_version: str
+    num_chunks: int | None = None
+    doc_count: int | None = None
+    run_at: datetime
+
+
+class PredictionRunResponse(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
+    stock_code: str
+    company_name: str
+    predicted_esg_rating: str
+    predicted_score: float
+    confidence: float
+    model_version: str
+    num_chunks: int
+    doc_count: int
     run_at: datetime
 
 

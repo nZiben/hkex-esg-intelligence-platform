@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import zipfile
 from collections import defaultdict
@@ -83,7 +84,7 @@ def read_pdf_text(pdf_path: Path) -> str:
             doc.close()
             text = "\n".join(pages)
             if text.strip():
-                return text
+                return remove_chinese_characters(text)
         except Exception:
             pass
 
@@ -95,9 +96,13 @@ def read_pdf_text(pdf_path: Path) -> str:
         with pdfplumber.open(pdf_path) as pdf:
             for page in pdf.pages:
                 pages.append(page.extract_text() or "")
-        return "\n".join(pages)
+        return remove_chinese_characters("\n".join(pages))
     except Exception:
         return ""
+
+
+def remove_chinese_characters(text: str) -> str:
+    return re.sub(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+", "", text)
 
 
 def upsert_company(db, payload: dict[str, Any]) -> Company:

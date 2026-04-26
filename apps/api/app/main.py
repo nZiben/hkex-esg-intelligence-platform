@@ -8,6 +8,7 @@ from app.db import init_db
 from app.routers.chat import router as chat_router
 from app.routers.companies import router as companies_router
 from app.routers.dashboard import router as dashboard_router
+from app.routers.predictions import router as predictions_router
 
 settings = get_settings()
 app = FastAPI(title=settings.app_name, version=settings.app_version)
@@ -34,3 +35,4 @@ def health() -> dict[str, str]:
 app.include_router(chat_router)
 app.include_router(companies_router)
 app.include_router(dashboard_router)
+app.include_router(predictions_router)

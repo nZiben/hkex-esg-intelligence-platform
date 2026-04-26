@@ -113,8 +113,11 @@ class Prediction(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     stock_code: Mapped[str] = mapped_column(ForeignKey("companies.stock_code", ondelete="CASCADE"), nullable=False)
     predicted_esg_rating: Mapped[str] = mapped_column(String(64), nullable=False)
+    predicted_score: Mapped[float | None] = mapped_column(Float, nullable=True)
     confidence: Mapped[float] = mapped_column(Float, nullable=False)
     model_version: Mapped[str] = mapped_column(String(64), nullable=False, default="baseline-v1")
+    num_chunks: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    doc_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
     run_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     company: Mapped[Company] = relationship(back_populates="predictions")

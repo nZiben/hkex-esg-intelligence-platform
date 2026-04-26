@@ -58,3 +58,5 @@ temp/
 .env
 .env.local
 .env.*.local
+
+project from teammate

@@ -1,0 +1,839 @@
+﻿Stock Code,Issuer,Sector,HSI/HKQAA Ratings,MSCI ESG Rating,S&P ESG Rating
+1,CK Hutchison Holdings Ltd.,Conglomerates - Conglomerates,AA+,B,48
+2,CLP Holdings Ltd.,Utilities - Utilities,AAA,AA,62
+3,"Hong Kong and China Gas Co. Ltd., The",Utilities - Utilities,AAA,AA,70
+4,"Wharf (Holdings) Ltd., The",Properties &amp; Construction - Properties,AA+,A,48
+5,HSBC Holdings plc,Financials - Banks,A+,AA,58
+6,Power Assets Holdings Ltd.,Utilities - Utilities,AA+,A,62
+8,PCCW Ltd.,Telecommunications - Telecommunications,AA,BBB,50
+10,Hang Lung Group Ltd.,Properties &amp; Construction - Properties,A+,A,45
+12,Henderson Land Development Co. Ltd.,Properties &amp; Construction - Properties,AA+,BBB,79
+13,HUTCHMED (China) Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AA,47
+14,Hysan Development Co. Ltd.,Properties &amp; Construction - Properties,AA,AA,43
+16,Sun Hung Kai Properties Ltd.,Properties &amp; Construction - Properties,AAA,AA,79
+17,New World Development Co. Ltd.,Properties &amp; Construction - Properties,AA+,BBB,71
+19,Swire Pacific Ltd.,Conglomerates - Conglomerates,AA+,AA,71
+20,SenseTime Group Inc. - W,Information Technology - Software &amp; Services,BBB+,,
+23,"Bank of East Asia, Ltd., The",Financials - Banks,AA,AA,55
+27,Galaxy Entertainment Group Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB+,BBB,31
+31,China Aerospace International Holdings Ltd.,Industrials - Industrial Engineering,27,,27
+33,International Genius Co.,Consumer Discretionary - Household Goods &amp; Electronics,22,,22
+35,Far East Consortium International Ltd.,Properties &amp; Construction - Properties,31,,31
+38,First Tractor Co Ltd. - H Shares,Industrials - Industrial Engineering,BBB-,,28
+41,Great Eagle Holdings Ltd.,Properties &amp; Construction - Properties,AA+,,
+52,Fairwood Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,32,,32
+59,Skyfame Realty (Holdings) Ltd.,Properties &amp; Construction - Properties,25,,25
+66,MTR Corporation Ltd.,Consumer Discretionary - Travel &amp; Leisure,AA,AAA,57
+69,Shangri-La Asia Ltd.,Consumer Discretionary - Travel &amp; Leisure,48,,48
+81,China Overseas Grand Oceans Group Ltd.,Properties &amp; Construction - Properties,BBB,A,65
+83,Sino Land Co. Ltd.,Properties &amp; Construction - Properties,AAA,AAA,86
+86,Sun Hung Kai &amp; Co. Ltd.,Financials - Other Financials,25,,25
+87,Swire Pacific Ltd.,Conglomerates - Conglomerates,AA+,,71
+95,LVGEM (China) Real Estate Investment Co. Ltd.,Properties &amp; Construction - Properties,27,,27
+101,Hang Lung Properties Ltd.,Properties &amp; Construction - Properties,AA+,AA,83
+107,Sichuan Expressway Co. Ltd. - H Shares,Industrials - Industrial Transportation,29,,29
+116,Chow Sang Sang Holdings International Ltd.,Consumer Discretionary - Specialty Retail,25,,25
+119,"Poly Property Group Co., Ltd.",Properties &amp; Construction - Properties,A-,B,29
+123,Yuexiu Property Co. Ltd.,Properties &amp; Construction - Properties,A+,BB,61
+127,Chinese Estates Holdings Ltd.,Properties &amp; Construction - Properties,26,,26
+128,ENM Holdings Ltd.,Consumer Discretionary - Specialty Retail,26,,26
+135,Kunlun Energy Co. Ltd.,Utilities - Utilities,A-,A,60
+136,China Ruyi Holdings Ltd.,Consumer Discretionary - Media &amp; Entertainment,BBB,A,32
+142,First Pacific Co. Ltd.,Consumer Staples - Food &amp; Beverages,A-,BB,51
+144,China Merchants Port Holdings Co. Ltd.,Industrials - Industrial Transportation,A,A,52
+148,Kingboard Holdings Ltd.,Industrials - Industrial Engineering,A-,CCC,33
+151,Want Want China Holdings Ltd.,Consumer Staples - Food &amp; Beverages,A,BB,42
+152,Shenzhen International Holdings Ltd.,Industrials - Industrial Transportation,A-,A,31
+165,China Everbright Ltd.,Financials - Other Financials,A,A,28
+168,Tsingtao Brewery Co. Ltd. - H Shares,Consumer Staples - Food &amp; Beverages,A,BBB,30
+171,Silver Grant International Holdings Group Ltd.,Properties &amp; Construction - Properties,25,,25
+173,K. Wah International Holdings Ltd.,Properties &amp; Construction - Properties,BBB-,,28
+175,Geely Automobile Holdings Ltd.,Consumer Discretionary - Automobiles,AA-,AA,69
+177,Jiangsu Expressway Co. Ltd. - H Shares,Industrials - Industrial Transportation,A-,BB,35
+178,Sa Sa International Holdings Ltd.,Healthcare - Other Healthcare,37,,37
+179,Johnson Electric Holdings Ltd.,Consumer Discretionary - Automobiles,A+,AA,57
+182,Concord New Energy Group Ltd.,Utilities - Utilities,AA,AA,75
+189,Dongyue Group Ltd.,Materials - Basic Materials,BBB+,B,23
+196,Honghua Group Ltd.,Energy - Oil &amp; Gas,26,,26
+200,Melco International Development Ltd.,Consumer Discretionary - Travel &amp; Leisure,A-,BB,44
+215,Hutchison Telecommunications Hong Kong Holdings Ltd.,Telecommunications - Telecommunications,A,A,27
+220,Uni-President China Holdings Ltd.,Consumer Staples - Food &amp; Beverages,A-,,37
+232,Continental Aerospace Technologies Holding Ltd.,Industrials - Industrial Engineering,24,,24
+241,Alibaba Health Information Technology Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AA,52
+242,Shun Tak Holdings Ltd.,Conglomerates - Conglomerates,31,,31
+256,Citychamp Watch &amp; Jewellery Group Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A,,18
+257,China Everbright Environment Group Ltd.,Utilities - Utilities,AA,BB,59
+267,CITIC Ltd.,Conglomerates - Conglomerates,A,AA,34
+268,Kingdee International Software Group Co. Ltd.,Information Technology - Software &amp; Services,A-,AAA,57
+270,Guangdong Investment Ltd.,Utilities - Utilities,A,B,42
+272,Shui On Land Ltd.,Properties &amp; Construction - Properties,AA,AAA,43
+285,BYD Electronic (International) Co. Ltd.,Information Technology - IT Hardware,BBB+,CCC,39
+286,Aidigong Maternal &amp; Child Health Ltd.,Healthcare - Other Healthcare,27,,27
+288,WH Group Ltd.,Consumer Staples - Food &amp; Beverages,AA-,A,57
+291,China Resources Beer (Holdings) Co. Ltd.,Consumer Staples - Food &amp; Beverages,A-,A,52
+293,Cathay Pacific Airways Ltd.,Consumer Discretionary - Travel &amp; Leisure,AA,,61
+297,Sinofert Holdings Ltd.,Materials - Basic Materials,A-,BBB,33
+300,"Midea Group Co., Ltd. - H Shares",Consumer Discretionary - Household Goods &amp; Electronics,A-,A,63
+303,VTech Holdings Ltd.,Information Technology - IT Hardware,AA+,AA,48
+305,Wuling Motors Holdings Ltd.,Consumer Discretionary - Automobiles,46,,46
+308,China Travel International Investment Hong Kong Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB-,BBB,22
+314,"Sipai Health Technology Co., Ltd.",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB-,,
+315,SmarTone Telecommunications Holdings Ltd.,Telecommunications - Telecommunications,BBB,BBB,23
+316,Orient Overseas (International) Ltd.,Industrials - Industrial Transportation,AA,BB,67
+317,CSSC Offshore &amp; Marine Engineering (Group) Co. Ltd. - H Shs,Industrials - Industrial Engineering,BBB,,26
+321,Texwinca Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,24,,24
+322,Tingyi (Cayman Islands) Holding Corp.,Consumer Staples - Food &amp; Beverages,A-,BB,61
+323,Maanshan Iron &amp; Steel Co. Ltd. - H Shares,Materials - Diversified Metals &amp; Minerals,A-,,28
+327,PAX Global Technology Ltd.,Information Technology - IT Hardware,A-,BB,32
+330,Esprit Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,36,,36
+336,Huabao International Holdings Ltd.,Consumer Staples - Food &amp; Beverages,A,B,28
+337,Greenland Hong Kong Holdings Ltd.,Properties &amp; Construction - Properties,25,,25
+338,Sinopec Shanghai Petrochemical Co. Ltd. - H Shares,Materials - Basic Materials,BBB+,,34
+341,Cafe de Coral Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,AA,BB,39
+345,Vitasoy International Holdings Ltd.,Consumer Staples - Food &amp; Beverages,AA+,A,61
+347,Angang Steel Co. Ltd. - H Shares,Materials - Diversified Metals &amp; Minerals,BBB+,,31
+354,Chinasoft International Ltd.,Information Technology - Software &amp; Services,BBB+,BB,37
+357,Hainan Meilan International Airport Co. Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,28,,28
+358,Jiangxi Copper Co. Ltd. - H Shares,Materials - Diversified Metals &amp; Minerals,BBB,B,33
+363,Shanghai Industrial Holdings Ltd.,Conglomerates - Conglomerates,A-,BB,24
+371,Beijing Enterprises Water Group Ltd.,Utilities - Utilities,A,BBB,58
+384,China Gas Holdings Ltd.,Utilities - Utilities,A,A,66
+386,China Petroleum &amp; Chemical Corporation - H Shares,Energy - Oil &amp; Gas,A-,A,46
+388,Hong Kong Exchanges and Clearing Ltd.,Financials - Other Financials,AA+,AAA,55
+390,China Railway Group Ltd. - H Shares,Properties &amp; Construction - Construction,A-,BB,22
+392,Beijing Enterprises Holdings Ltd.,Utilities - Utilities,BBB+,BBB,61
+398,Oriental Watch Holdings Ltd.,Consumer Discretionary - Specialty Retail,23,,23
+400,"Ingdan, Inc.",Information Technology - Semiconductors,30,,30
+410,SOHO China Ltd.,Properties &amp; Construction - Properties,53,,53
+412,Shandong Hi-Speed Holdings Group Ltd.,Financials - Other Financials,BBB-,,18
+425,Minth Group Ltd.,Consumer Discretionary - Automobiles,A-,A,47
+438,IRICO Group New Energy Co. Ltd. - H Shares,Industrials - Industrial Engineering,22,,22
+440,Dah Sing Financial Holdings Ltd.,Financials - Banks,A-,BB,31
+451,GCL New Energy Holdings Ltd.,Utilities - Utilities,24,,24
+460,Sihuan Pharmaceutical Holdings Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,A,61
+467,United Energy Group Ltd.,Energy - Oil &amp; Gas,BBB,A,26
+468,Greatview Aseptic Packaging Co. Ltd.,Industrials - Commercial &amp; Professional Services,30,,30
+470,"Wuxi Lead Intelligent Equipment Co., Ltd. - H Shares",Industrials - Industrial Engineering,48,,48
+493,GOME Retail Holdings Ltd.,Consumer Discretionary - Specialty Retail,22,,22
+496,Kasen International Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,26,,26
+501,"OmniVision Integrated Circuits Group, Inc. - H Shares",Information Technology - Semiconductors,BBB,BBB,28
+506,China Foods Ltd.,Consumer Staples - Food &amp; Beverages,A-,B,28
+508,Dingyi Group Investment Ltd.,Properties &amp; Construction - Properties,22,,22
+511,Television Broadcasts Ltd.,Consumer Discretionary - Media &amp; Entertainment,23,,23
+512,Grand Pharmaceutical Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,AA,50
+517,"COSCO SHIPPING International (Hong Kong) Co., Ltd.",Industrials - Industrial Engineering,B,B,28
+522,ASMPT Ltd.,Information Technology - Semiconductors,A,A,37
+525,Guangshen Railway Co. Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,BBB,,20
+535,Gemdale Properties and Investment Corporation Ltd.,Properties &amp; Construction - Properties,A-,BBB,28
+538,Ajisen (China) Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,23,,23
+546,Fufeng Group Ltd.,Consumer Staples - Food &amp; Beverages,A-,,29
+547,Digital Domain Holdings Ltd.,Consumer Discretionary - Media &amp; Entertainment,26,,26
+548,Shenzhen Expressway Corporation Ltd. - H Shares,Industrials - Industrial Transportation,BBB+,,27
+551,Yue Yuen Industrial (Holdings) Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BBB+,BBB,45
+552,China Communications Services Corporation Ltd. - H Shares,Information Technology - IT Hardware,A,BB,35
+553,Nanjing Panda Electronics Co. Ltd. - H Shares,Information Technology - Software &amp; Services,24,,24
+558,L.K. Technology Holdings Ltd.,Industrials - Industrial Engineering,BBB-,B,36
+563,Shanghai Industrial Urban Development Group Ltd.,Properties &amp; Construction - Properties,28,,28
+564,ZCZL Industrial Technology Group Co. Ltd. - H Shares,Consumer Discretionary - Automobiles,BBB-,,27
+568,Shandong Molong Petroleum Machinery Co. Ltd. - H Shares,Energy - Oil &amp; Gas,25,,25
+570,China Traditional Chinese Medicine Holdings Co. Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,BB,25
+576,Zhejiang Expressway Co. Ltd. - H Shares,Industrials - Industrial Transportation,BBB+,BBB,32
+579,"Beijing Jingneng Clean Energy Co., Ltd. - H Shares",Utilities - Utilities,A,A,40
+581,China Oriental Group Co. Ltd.,Materials - Diversified Metals &amp; Minerals,A-,,27
+586,China Conch Venture Holdings Ltd.,Industrials - Industrial Engineering,BBB,AAA,37
+588,Beijing North Star Co. Ltd. - H Shares,Properties &amp; Construction - Properties,21,,21
+590,Luk Fook Holdings (International) Ltd.,Consumer Discretionary - Specialty Retail,A-,B,26
+596,Inspur Digital Enterprise Technology Ltd.,Information Technology - Software &amp; Services,BB,BB,34
+598,Sinotrans Ltd. - H Shares,Industrials - Industrial Transportation,BBB-,,26
+603,China Oil And Gas Group Ltd.,Utilities - Utilities,34,,34
+604,Shenzhen Investment Ltd.,Properties &amp; Construction - Properties,A-,AAA,30
+607,Fullshare Holdings Ltd.,Industrials - Industrial Engineering,28,,28
+631,Sany Heavy Equipment International Holdings Co. Ltd.,Industrials - Industrial Engineering,A-,BBB,31
+636,KLN Logistics Group Ltd.,Industrials - Industrial Transportation,A+,AAA,38
+638,Fibocom Wireless Inc. - H Shares,Industrials - Industrial Engineering,32,,32
+639,Shougang Fushan Resources Group Ltd.,Energy - Coal,BBB,B,25
+656,Fosun International Ltd.,Conglomerates - Conglomerates,AA-,AAA,73
+658,"China High Speed Transmission Equipment Group Co., Ltd.",Industrials - Industrial Engineering,38,,38
+659,CTF Services Ltd.,Conglomerates - Conglomerates,AA+,AA,50
+666,"REPT BATTERO Energy Co., Ltd. - H Shares",Industrials - Industrial Engineering,BBB,,34
+667,China East Education Holdings Ltd.,Consumer Discretionary - Support Services,BBB+,BB,27
+669,Techtronic Industries Co. Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,A,BBB,44
+670,China Eastern Airlines Corporation Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,BBB+,CCC,27
+683,Kerry Properties Ltd.,Properties &amp; Construction - Properties,AA+,AA,66
+688,China Overseas Land &amp; Investment Ltd.,Properties &amp; Construction - Properties,AA-,A,69
+691,China Shanshui Cement Group Ltd.,Properties &amp; Construction - Construction,30,,30
+694,Beijing Capital International Airport Co. Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,BBB,BB,34
+696,TravelSky Technology Ltd. - H Shares,Information Technology - Software &amp; Services,BBB+,BB,24
+697,Shoucheng Holdings Ltd.,Financials - Other Financials,A-,BB,
+698,Tongda Group Holdings Ltd.,Industrials - Industrial Engineering,33,,33
+699,Ningbo Joyson Electronic Corp. - H Shares,Consumer Discretionary - Automobiles,54,,54
+700,Tencent Holdings Ltd.,Information Technology - Software &amp; Services,A+,A,61
+708,China Evergrande New Energy Vehicle Group Ltd.,Consumer Discretionary - Automobiles,13,,13
+709,Giordano International Ltd.,Consumer Discretionary - Textiles &amp; Clothing,26,,26
+710,BOE Varitronix Ltd.,Consumer Discretionary - Automobiles,BBB+,B,21
+716,Singamas Container Holdings Ltd.,Industrials - Industrial Engineering,28,,28
+719,Shandong Xinhua Pharmaceutical Co. Ltd. - H Shares,Healthcare - Pharmaceuticals &amp; Biotechnology,30,,30
+728,China Telecom Corporation Ltd. - H Shares,Telecommunications - Telecommunications,A-,,33
+732,Truly International Holdings Ltd.,Industrials - Industrial Engineering,22,,22
+743,Asia Cement (China) Holdings Corporation,Properties &amp; Construction - Construction,42,,42
+751,Skyworth Group Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,A-,CCC,21
+753,Air China Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,A-,A,33
+754,Hopson Development Holdings Ltd.,Properties &amp; Construction - Properties,BBB+,B,25
+757,Solargiga Energy Holdings Ltd.,Industrials - Industrial Engineering,19,,19
+762,China Unicom (Hong Kong) Ltd.,Telecommunications - Telecommunications,A-,,30
+763,ZTE Corporation - H Shares,Information Technology - IT Hardware,A+,A,54
+769,China Rare Earth Holdings Ltd.,Materials - Diversified Metals &amp; Minerals,28,,28
+772,China Literature Ltd.,Consumer Discretionary - Media &amp; Entertainment,A-,BB,33
+775,"CK Life Sciences Int'l., (Holdings) Inc.",Healthcare - Other Healthcare,BBB,BBB,
+777,NetDragon Websoft Holdings Ltd.,Information Technology - Software &amp; Services,BBB,A,39
+780,Tongcheng Travel Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB+,AAA,58
+788,China Tower Corporation Ltd. - H Shares,Telecommunications - Telecommunications,A,CCC,24
+799,IGG Inc,Information Technology - Software &amp; Services,27,,27
+806,Value Partners Group Ltd.,Financials - Other Financials,32,,32
+807,SIIC Environment Holdings Ltd.,Utilities - Utilities,31,,31
+811,"Xinhua Winshare Publishing and Media Co., Ltd. - H Shares",Consumer Discretionary - Media &amp; Entertainment,BBB,BBB,24
+813,Shimao Group Holdings Ltd.,Properties &amp; Construction - Properties,30,,30
+815,China Silver Group Ltd.,Materials - Gold &amp; Precious Metals,28,,28
+817,China Jinmao Holdings Group Ltd.,Properties &amp; Construction - Properties,A,AA,41
+819,Tianneng Power International Ltd.,Industrials - Industrial Engineering,A-,A,25
+826,Tiangong International Co. Ltd.,Materials - Diversified Metals &amp; Minerals,BBB+,,42
+832,Central China Real Estate Ltd.,Properties &amp; Construction - Properties,31,,31
+836,China Resources Power Holdings Co. Ltd.,Utilities - Utilities,A,A,42
+839,China Education Group Holdings Ltd.,Consumer Discretionary - Support Services,A-,BBB,31
+853,MicroPort Scientific Corporation,Healthcare - Other Healthcare,A-,BB,35
+855,China Water Affairs Group Ltd.,Utilities - Utilities,A-,BBB,33
+856,VSTECS Holdings Ltd.,Information Technology - Software &amp; Services,BBB-,B,20
+857,PetroChina Co. Ltd. - H Shares,Energy - Oil &amp; Gas,A-,A,53
+861,Digital China Holdings Ltd.,Information Technology - Software &amp; Services,BBB-,,42
+863,OSL Group Ltd.,Financials - Other Financials,BBB,BBB,
+867,China Medical System Holdings Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AAA,67
+868,Xinyi Glass Holdings Ltd.,Industrials - Industrial Engineering,BBB,CCC,30
+873,Shimao Services Holdings Ltd.,Properties &amp; Construction - Properties,31,,31
+874,Guangzhou Baiyunshan Pharmaceutical Holdings Co. Ltd.- H Shs,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,BB,36
+880,SJM Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB-,BBB,35
+881,Zhongsheng Group Holdings Ltd.,Consumer Discretionary - Specialty Retail,BBB+,BBB,25
+882,Tianjin Development Holdings Ltd.,Conglomerates - Conglomerates,20,,20
+883,CNOOC Ltd.,Energy - Oil &amp; Gas,A-,B,30
+884,CIFI Holdings (Group) Co. Ltd.,Properties &amp; Construction - Properties,A,,32
+895,Dongjiang Environmental Co. Ltd. - H Shares,Industrials - Industrial Engineering,29,,29
+900,Aeon Credit Service (Asia) Co. Ltd.,Financials - Other Financials,46,,46
+902,"Huaneng Power International, Inc. - H Shares",Utilities - Utilities,BBB-,B,29
+909,Ming Yuan Cloud Group Holdings Ltd.,Information Technology - Software &amp; Services,BBB-,BBB,35
+914,Anhui Conch Cement Co. Ltd. - H Shares,Properties &amp; Construction - Construction,BBB+,BBB,47
+916,China Longyuan Power Group Corporation Ltd. - H Shares,Utilities - Utilities,A-,A,39
+917,Qunabox Group Ltd.,Consumer Discretionary - Media &amp; Entertainment,BBB-,,
+921,"Hisense Home Appliances Group Co., Ltd. - H Shares",Consumer Discretionary - Household Goods &amp; Electronics,A-,BBB,54
+928,King International Investment Ltd.,Consumer Staples - Food &amp; Beverages,15,,15
+933,Viva Goods Co. Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BBB,BBB,31
+934,Sinopec Kantons Holdings Ltd.,Energy - Oil &amp; Gas,BBB+,BB,39
+939,China Construction Bank Corporation - H Shares,Financials - Banks,A,AAA,39
+941,China Mobile Ltd.,Telecommunications - Telecommunications,AA-,,35
+945,Manulife Financial Corporation - S,Financials - Insurance,AAA,AAA,74
+950,Lee's Pharmaceutical Holdings Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,32,,32
+951,Chaowei Power Holdings Ltd.,Industrials - Industrial Engineering,27,,27
+956,China Suntien Green Energy Corporation Ltd. - H Shares,Utilities - Utilities,A,,33
+960,Longfor Group Holdings Ltd.,Properties &amp; Construction - Properties,A-,AA,51
+966,China Taiping Insurance Holdings Co. Ltd.,Financials - Insurance,A-,B,32
+968,Xinyi Solar Holdings Ltd.,Industrials - Industrial Engineering,A,A,40
+975,Mongolian Mining Corporation,Energy - Coal,BBB+,,
+978,China Merchants Land Ltd.,Properties &amp; Construction - Properties,25,,25
+981,Semiconductor Manufacturing International Corporation,Information Technology - Semiconductors,A+,,34
+990,Deep Source Holdings Ltd.,Materials - Basic Materials,BBB-,A,20
+991,"Datang International Power Generation Co., Ltd. - H Shares",Utilities - Utilities,A-,B,23
+992,Lenovo Group Ltd.,Information Technology - IT Hardware,AA+,AAA,62
+995,Anhui Expressway Co. Ltd. - H Shares,Industrials - Industrial Transportation,BBB-,,25
+998,China CITIC Bank Corporation Ltd. - H Shares,Financials - Banks,BBB,AAA,39
+1024,Kuaishou Technology - W,Consumer Discretionary - Media &amp; Entertainment,A,A,47
+1030,Seazen Group Ltd.,Properties &amp; Construction - Properties,BBB,A,34
+1033,Sinopec Oilfield Service Corporation - H Shares,Energy - Oil &amp; Gas,BBB,,32
+1038,CK Infrastructure Holdings Ltd.,Utilities - Utilities,AA+,A,57
+1044,Hengan International Group Co. Ltd.,Consumer Staples - Consumer Staple Retailers,A,A,64
+1052,Yuexiu Transport Infrastructure Ltd.,Industrials - Industrial Transportation,A-,BBB,41
+1053,Chongqing Iron &amp; Steel Co. Ltd. - H Shares,Materials - Diversified Metals &amp; Minerals,BBB,,30
+1055,China Southern Airlines Co. Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,BBB,BBB,42
+1057,Zhejiang Shibao Co. Ltd. - H Shares,Consumer Discretionary - Automobiles,28,,28
+1060,Damai Entertainment Holdings Ltd.,Consumer Discretionary - Media &amp; Entertainment,A-,AAA,36
+1061,Essex Bio-Technology Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,36,,36
+1065,Tianjin Capital Environmental Protection Group Co. Ltd.-H Sh,Utilities - Utilities,28,,28
+1066,Shandong Weigao Group Medical Polymer Co. Ltd. - H Shares,Healthcare - Other Healthcare,BBB+,BBB,25
+1068,China Yurun Food Group Ltd.,Consumer Staples - Agricultural Products,26,,26
+1070,TCL Electronics Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,A,B,41
+1071,Huadian Power International Corporation Ltd. - H Shares,Utilities - Utilities,BBB-,CCC,21
+1072,Dongfang Electric Corporation Ltd. - H Shares,Industrials - Industrial Engineering,BBB,BB,27
+1083,Towngas Smart Energy Co. Ltd.,Utilities - Utilities,AA+,AA,69
+1086,Goodbaby International Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,67,,67
+1088,China Shenhua Energy Co. Ltd. - H Shares,Energy - Coal,BBB+,BB,48
+1093,CSPC Pharmaceutical Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,A,38
+1098,Road King Infrastructure Ltd.,Properties &amp; Construction - Properties,26,,26
+1099,Sinopharm Group Co. Ltd. - H Shares,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,BBB,43
+1108,Triumph New Energy Co. Ltd. - H Shares,Industrials - Industrial Engineering,26,,26
+1109,China Resources Land Ltd.,Properties &amp; Construction - Properties,A+,AA,39
+1112,Health and Happiness (H&amp;H) International Holdings Ltd.,Healthcare - Other Healthcare,A+,AA,58
+1113,CK Asset Holdings Ltd.,Properties &amp; Construction - Properties,AA-,BBB,59
+1114,Brilliance China Automotive Holdings Ltd.,Consumer Discretionary - Automobiles,BBB,BB,26
+1115,5100 Xizang Glacier Co. Ltd.,Consumer Staples - Food &amp; Beverages,25,,25
+1117,China Modern Dairy Holdings Ltd.,Consumer Staples - Food &amp; Beverages,A-,A,71
+1121,Golden Solar New Energy Technology Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,21,,21
+1122,Qingling Motors Co. Ltd. - H Shares,Industrials - Industrial Engineering,20,,20
+1126,Dream International Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,19,,19
+1128,"Wynn Macau, Ltd.",Consumer Discretionary - Travel &amp; Leisure,BBB,BB,44
+1133,Harbin Electric Co. Ltd. - H Shares,Industrials - Industrial Engineering,23,,23
+1137,Hong Kong Technology Venture Co. Ltd.,Consumer Discretionary - Specialty Retail,22,,22
+1138,"COSCO SHIPPING Energy Transportation Co., Ltd. - H Shares",Industrials - Industrial Transportation,A+,BBB,54
+1157,"Zoomlion Heavy Industry Science and Technology Co., Ltd-H Sh",Industrials - Industrial Engineering,BBB-,BB,21
+1164,CGN Mining Co. Ltd.,Materials - Diversified Metals &amp; Minerals,BBB+,BB,
+1171,Yankuang Energy Group Co. Ltd. - H Shares,Energy - Coal,BBB+,BBB,45
+1177,Sino Biopharmaceutical Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A,AA,71
+1179,H World Group Ltd. - S,Consumer Discretionary - Travel &amp; Leisure,BBB-,A,32
+1186,China Railway Construction Corporation Ltd. - H Shares,Properties &amp; Construction - Construction,BBB,B,23
+1193,China Resources Gas Group Ltd.,Utilities - Utilities,A,A,30
+1196,Realord Group Holdings Ltd.,Industrials - Industrial Engineering,BBB+,BB,25
+1199,COSCO SHIPPING Ports Ltd.,Industrials - Industrial Transportation,A+,BBB,45
+1205,CITIC Resources Holdings Ltd.,Energy - Oil &amp; Gas,29,,29
+1208,MMG Ltd.,Materials - Diversified Metals &amp; Minerals,BBB+,BBB,37
+1209,China Resources Mixc Lifestyle Services Ltd.,Properties &amp; Construction - Properties,A-,A,47
+1211,BYD Co. Ltd. - H Shares,Consumer Discretionary - Automobiles,A+,AA,60
+1223,Symphony Holdings Ltd.,Consumer Discretionary - Specialty Retail,22,,22
+1233,Times China Holdings Ltd.,Properties &amp; Construction - Properties,29,,29
+1234,China Lilang Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BB,BB,25
+1238,Powerlong Real Estate Holdings Ltd.,Properties &amp; Construction - Properties,28,,28
+1250,Shandong Hi-Speed New Energy Group Ltd.,Utilities - Utilities,46,,46
+1251,SPT Energy Group Inc.,Energy - Oil &amp; Gas,30,,30
+1252,China Tianrui Group Cement Co. Ltd.,Properties &amp; Construction - Construction,30,,30
+1257,China Everbright Greentech Ltd.,Utilities - Utilities,43,,43
+1258,China Nonferrous Mining Corporation Ltd.,Materials - Diversified Metals &amp; Minerals,BBB+,B,12
+1268,China MeiDong Auto Holdings Ltd.,Consumer Discretionary - Specialty Retail,27,,27
+1269,China First Capital Group Ltd.,Consumer Discretionary - Automobiles,34,,34
+1270,Langham Hospitality Investments Ltd.,Consumer Discretionary - Travel &amp; Leisure,26,,26
+1274,"iMotion Automotive Technology (Suzhou) Co., Ltd. - H Shares",Information Technology - Software &amp; Services,BB+,,
+1276,"Jiangsu Hengrui Pharmaceuticals Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,AA,AA,36
+1277,Kinetic Development Group Ltd.,Energy - Coal,BBB,,
+1282,Renze Harvest International Ltd.,Financials - Other Financials,30,,30
+1288,Agricultural Bank of China Ltd. - H Shares,Financials - Banks,BBB+,AA,39
+1293,Grand Baoxin Auto Group Ltd.,Consumer Discretionary - Specialty Retail,29,,29
+1299,AIA Group Ltd.,Financials - Insurance,A+,AAA,52
+1302,LifeTech Scientific Corporation,Healthcare - Other Healthcare,BBB+,BB,28
+1308,SITC International Holdings Co. Ltd.,Industrials - Industrial Transportation,BBB+,A,84
+1310,HKBN Ltd.,Telecommunications - Telecommunications,AA+,AAA,38
+1313,China Resources Building Materials Technology Holdings Ltd.,Properties &amp; Construction - Construction,A,BBB,40
+1316,Nexteer Automotive Group Ltd.,Consumer Discretionary - Automobiles,A+,BBB,41
+1317,China Maple Leaf Educational Systems Ltd.,Consumer Discretionary - Support Services,34,,34
+1330,"Dynagreen Environmental Protection Group Co., Ltd. -H Shares",Industrials - Industrial Engineering,28,,28
+1336,New China Life Insurance Co. Ltd. - H Shares,Financials - Insurance,A-,BB,29
+1339,The People's Insurance Co. (Group) of China Ltd. - H Shares,Financials - Insurance,BBB+,AAA,40
+1341,Hao Tian International Construction Investment Group Ltd.,Industrials - Industrial Engineering,BBB,,16
+1347,Hua Hong Semiconductor Ltd.,Information Technology - Semiconductors,A+,BBB,32
+1349,Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co. Ltd. -H Shs,Healthcare - Pharmaceuticals &amp; Biotechnology,40,,40
+1357,"Meitu, Inc.",Consumer Discretionary - Media &amp; Entertainment,A-,A,30
+1359,"China Cinda Asset Management Co., Ltd. - H Shares",Financials - Other Financials,BBB,B,25
+1361,361 Degrees International Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BBB+,CCC,30
+1368,Xtep International Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A,A,41
+1375,"Central China Securities Co., Ltd. - H Shares",Financials - Other Financials,A-,,20
+1378,China Hongqiao Group Ltd.,Materials - Diversified Metals &amp; Minerals,BBB+,BB,53
+1382,Pacific Textiles Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,26,,26
+1385,Shanghai Fudan Microelectronics Group Co. Ltd. - H Shares,Information Technology - Semiconductors,BBB-,,23
+1398,Industrial and Commercial Bank of China Ltd. - H Shares,Financials - Banks,BBB+,AAA,33
+1405,DPC Dash Ltd,Consumer Discretionary - Travel &amp; Leisure,BBB,BB,
+1415,Cowell e Holdings Inc.,Industrials - Industrial Engineering,BBB,BBB,35
+1428,Bright Smart Securities &amp; Commodities Group Ltd.,Financials - Other Financials,19,,19
+1432,China Shengmu Organic Milk Ltd.,Consumer Staples - Food &amp; Beverages,56,,56
+1448,Fu Shou Yuan International Group Ltd.,Consumer Discretionary - Support Services,AA-,AAA,31
+1456,Guolian Minsheng Securities Co. Ltd. - H Shares,Financials - Other Financials,A,BB,29
+1458,Zhou Hei Ya International Holdings Co. Ltd.,Consumer Staples - Food &amp; Beverages,A-,BB,
+1475,Nissin Foods Co. Ltd.,Consumer Staples - Food &amp; Beverages,A-,,
+1477,Ocumension Therapeutics - B,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB-,BBB,
+1478,Q Technology (Group) Co. Ltd.,Industrials - Industrial Engineering,BBB,B,29
+1501,"Shanghai INT Medical Instruments Co., Ltd. - H Shares",Healthcare - Other Healthcare,42,,42
+1508,China Reinsurance (Group) Corporation - H Shares,Financials - Insurance,25,,25
+1513,Livzon Pharmaceutical Group Inc. - H Shares,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,,71
+1515,China Resources Medical Holdings Co. Ltd.,Healthcare - Other Healthcare,BBB+,B,34
+1516,Sunac Services Holdings Ltd.,Properties &amp; Construction - Properties,BBB+,A,29
+1519,J&amp;T Global Express Ltd. - W,Industrials - Industrial Transportation,BBB-,B,31
+1528,Red Star Macalline Group Corporation Ltd. - H Shares,Properties &amp; Construction - Properties,A-,,33
+1530,3SBio Inc.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,A,40
+1548,Genscript Biotech Corporation,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AA,63
+1565,Virscend Education Co. Ltd.,Consumer Discretionary - Support Services,24,,24
+1579,Yihai International Holding Ltd.,Consumer Staples - Food &amp; Beverages,A-,B,27
+1585,Yadea Group Holdings Ltd.,Consumer Discretionary - Automobiles,A,AAA,40
+1600,Tian Lun Gas Holdings Ltd.,Utilities - Utilities,30,,30
+1606,"China Development Bank Financial Leasing Co., Ltd. - H Shs",Financials - Other Financials,BB,BB,34
+1610,COFCO Joycome Foods Ltd.,Consumer Staples - Agricultural Products,A-,B,
+1618,Metallurgical Corporation of China Ltd. - H Shares,Properties &amp; Construction - Construction,A-,B,22
+1622,Redco Properties Group Ltd.,Properties &amp; Construction - Properties,26,,26
+1628,Yuzhou Group Holdings Co. Ltd.,Properties &amp; Construction - Properties,32,,32
+1635,"Shanghai Dazhong Public Utilities (Group) Co., Ltd. - H Shs",Utilities - Utilities,24,,24
+1638,Kaisa Group Holdings Ltd.,Properties &amp; Construction - Properties,27,,27
+1658,"Postal Savings Bank of China Co., Ltd. - H Shares",Financials - Banks,BBB+,AAA,36
+1666,Tong Ren Tang Technologies Co. Ltd. - H Shares,Healthcare - Pharmaceuticals &amp; Biotechnology,BB,BB,30
+1668,China South City Holdings Ltd.,Properties &amp; Construction - Properties,30,,30
+1673,Huazhang Technology Holding Ltd.,Industrials - Industrial Engineering,19,,19
+1675,AsiaInfo Technologies Ltd.,Information Technology - Software &amp; Services,BBB+,BBB,
+1681,Consun Pharmaceutical Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,BBB,29
+1686,SUNeVision Holdings Ltd.,Information Technology - Software &amp; Services,A,A,30
+1691,JS Global Lifestyle Co. Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,A+,BBB,54
+1698,Tencent Music Entertainment Group - SW,Consumer Discretionary - Media &amp; Entertainment,BBB,BBB,33
+1709,DL Holdings Group Ltd.,Financials - Other Financials,BBB-,,24
+1717,Ausnutria Dairy Corporation Ltd.,Consumer Staples - Food &amp; Beverages,32,,32
+1728,China ZhengTong Auto Services Holdings Ltd.,Consumer Discretionary - Specialty Retail,37,,37
+1729,Time Interconnect Technology Ltd.,Information Technology - IT Hardware,BBB-,A,
+1733,E-Commodities Holdings Ltd.,Energy - Coal,41,,41
+1735,Central New Energy Holding Group Ltd.,Industrials - Industrial Engineering,BBB,,24
+1755,"S-Enjoy Service Group Co., Ltd.",Properties &amp; Construction - Properties,30,,30
+1766,CRRC Corporation Ltd. - H Shares,Industrials - Industrial Engineering,BBB+,BBB,30
+1769,Scholar Education Group,Consumer Discretionary - Support Services,27,,27
+1772,"Ganfeng Lithium Group Co., Ltd. - H Shares",Materials - Diversified Metals &amp; Minerals,A,A,47
+1773,Tianli International Holdings Ltd.,Consumer Discretionary - Support Services,BBB+,,
+1776,"GF Securities Co., Ltd. - H Shares",Financials - Other Financials,A-,BBB,23
+1777,"Fantasia Holdings Group Co., Ltd.",Properties &amp; Construction - Properties,22,,22
+1778,"Colour Life Services Group Co., Ltd.",Properties &amp; Construction - Properties,24,,24
+1783,Envision Greenwise Holdings Ltd.,Properties &amp; Construction - Construction,BB+,BB,44
+1787,"Shandong Gold Mining Co., Ltd. - H Shares",Materials - Gold &amp; Precious Metals,A-,B,27
+1788,Guotai Junan International Holdings Ltd.,Financials - Other Financials,A-,AAA,42
+1789,AK Medical Holdings Ltd.,Healthcare - Other Healthcare,BBB+,A,44
+1797,East Buy Holding Ltd.,Consumer Discretionary - Media &amp; Entertainment,A-,A,34
+1798,"China Datang Corporation Renewable Power Co., Ltd. -H Shares",Utilities - Utilities,BBB,BBB,30
+1799,"Xinte Energy Co., Ltd. - H Shares",Industrials - Industrial Engineering,29,,29
+1800,China Communications Construction Co. Ltd. - H Shares,Properties &amp; Construction - Construction,A-,BBB,42
+1801,"Innovent Biologics, Inc.",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AAA,46
+1810,Xiaomi Corporation - W,Information Technology - IT Hardware,BBB+,A,63
+1811,"CGN New Energy Holdings Co., Ltd.",Utilities - Utilities,A-,A,51
+1812,Shandong Chenming Paper Holdings Ltd. - H Shares,Materials - Basic Materials,22,,22
+1813,KWG Group Holdings Ltd.,Properties &amp; Construction - Properties,34,,34
+1816,"CGN Power Co., Ltd. - H Shares",Utilities - Utilities,A-,BB,36
+1818,Zhaojin Mining Industry Co. Ltd. - H Shares,Materials - Gold &amp; Precious Metals,BBB,CCC,17
+1830,Perfect Medical Health Management Ltd.,Healthcare - Other Healthcare,27,,27
+1833,Ping An Healthcare and Technology Co. Ltd.,Healthcare - Other Healthcare,A-,AA,37
+1836,Stella International Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A-,AAA,25
+1846,EuroEyes International Eye Clinic Ltd.,Healthcare - Other Healthcare,24,,24
+1848,China Aircraft Leasing Group Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,33,,33
+1854,China Wantian Holdings Ltd.,Consumer Staples - Agricultural Products,44,,44
+1855,ZONQING Environmental Ltd.,Properties &amp; Construction - Construction,BBB-,,
+1857,China Everbright Water Ltd.,Utilities - Utilities,49,,49
+1860,Mobvista Inc.,Consumer Discretionary - Media &amp; Entertainment,BBB+,BBB,37
+1862,Jingrui Holdings Ltd.,Properties &amp; Construction - Properties,26,,26
+1866,China XLX Fertiliser Ltd.,Materials - Basic Materials,41,,41
+1873,Viva Biotech Holdings,Healthcare - Pharmaceuticals &amp; Biotechnology,35,,35
+1876,Budweiser Brewing Co. APAC Ltd.,Consumer Staples - Food &amp; Beverages,BBB,,49
+1877,"Shanghai Junshi Biosciences Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,,20
+1880,China Tourism Group Duty Free Corporation Ltd. - H Shares,Consumer Discretionary - Travel &amp; Leisure,A-,A,39
+1882,Haitian International Holdings Ltd.,Industrials - Industrial Engineering,BBB,A,32
+1883,CITIC Telecom International Holdings Ltd.,Telecommunications - Telecommunications,A,BBB,31
+1888,Kingboard Laminates Holdings Ltd.,Industrials - Industrial Engineering,A,CCC,29
+1896,Maoyan Entertainment,Consumer Discretionary - Media &amp; Entertainment,BBB,A,32
+1898,China Coal Energy Co. Ltd. - H Shares,Energy - Coal,BBB,BB,29
+1899,Xingda International Holdings Ltd.,Industrials - Industrial Engineering,49,,49
+1907,China Risun Group Ltd.,Materials - Basic Materials,BBB+,BB,40
+1908,C&amp;D International Investment Group Ltd.,Properties &amp; Construction - Properties,BBB+,B,24
+1910,Samsonite Group S.A.,Consumer Discretionary - Textiles &amp; Clothing,32,,32
+1913,PRADA S.p.A.,Consumer Discretionary - Textiles &amp; Clothing,51,,51
+1916,"Jiangxi Bank Co., Ltd. - H Shares",Financials - Banks,28,,28
+1918,Sunac China Holdings Ltd.,Properties &amp; Construction - Properties,BBB,B,32
+1919,"COSCO SHIPPING Holdings Co., Ltd. - H Shares",Industrials - Industrial Transportation,A+,CCC,28
+1921,Dalipal Holdings Ltd.,Energy - Oil &amp; Gas,BBB-,CCC,
+1928,Sands China Ltd.,Consumer Discretionary - Travel &amp; Leisure,A-,A,78
+1929,Chow Tai Fook Jewellery Group Ltd.,Consumer Discretionary - Specialty Retail,AA,AA,57
+1942,MOG Digitech Holdings Ltd.,Financials - Other Financials,24,,24
+1951,Jinxin Fertility Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,A,30
+1952,Everest Medicines Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,BB,
+1958,BAIC Motor Corporation Ltd. - H Shares,Consumer Discretionary - Automobiles,A,,32
+1963,"Bank of Chongqing Co., Ltd. - H Shares",Financials - Banks,A-,,24
+1966,China SCE Group Holdings Ltd.,Properties &amp; Construction - Properties,25,,25
+1969,"China Chunlai Education Group Co., Ltd.",Consumer Discretionary - Support Services,BBB+,,
+1970,"IMAX China Holding, Inc.",Consumer Discretionary - Media &amp; Entertainment,28,,28
+1972,Swire Properties Ltd.,Properties &amp; Construction - Properties,AAA,AA,79
+1980,Tian Ge Interactive Holdings Ltd.,Consumer Discretionary - Media &amp; Entertainment,24,,24
+1982,Nameson Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,34,,34
+1988,"China Minsheng Banking Corp., Ltd. - H Shares",Financials - Banks,BBB+,AAA,40
+1989,Delton Technology (Guangzhou) Inc. - H Shares,Industrials - Industrial Engineering,45,,45
+1995,Ever Sunshine Services Group Ltd.,Properties &amp; Construction - Properties,42,,42
+1997,Wharf Real Estate Investment Co. Ltd.,Properties &amp; Construction - Properties,AA+,BBB,49
+1999,Man Wah Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,BBB+,BBB,24
+2001,China New Higher Education Group Ltd.,Consumer Discretionary - Support Services,39,,39
+2005,SSY Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BB+,BBB,28
+2007,Country Garden Holdings Co. Ltd.,Properties &amp; Construction - Properties,A-,B,38
+2009,BBMG Corporation - H Shares,Properties &amp; Construction - Construction,A-,B,34
+2013,Weimob Inc.,Information Technology - Software &amp; Services,BBB,A,34
+2015,Li Auto Inc. - W,Consumer Discretionary - Automobiles,A-,AAA,56
+2016,"China Zheshang Bank Co., Ltd. - H Shares",Financials - Banks,BBB,AAA,36
+2018,AAC Technologies Holdings Inc.,Industrials - Industrial Engineering,AA,BBB,47
+2020,ANTA Sports Products Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A,AA,69
+2038,FIH Mobile Ltd.,Information Technology - IT Hardware,A-,BBB,40
+2039,"China Int'l Marine Containers (Group) Co., Ltd. - H Shares",Industrials - Industrial Engineering,A,,27
+2048,E-House (China) Enterprise Holdings Ltd.,Properties &amp; Construction - Properties,22,,22
+2050,"Zhejiang Sanhua Intelligent Controls Co., Ltd. - H Shares",Industrials - Industrial Engineering,BBB,BBB,38
+2057,ZTO Express (Cayman) Inc. - W,Industrials - Industrial Transportation,BBB+,B,54
+2068,China Aluminum International Engineering Corp. Ltd.-H shares,Properties &amp; Construction - Construction,BBB,,21
+2076,Kanzhun Ltd. - W,Consumer Discretionary - Support Services,AA,AA,53
+2096,Simcere Pharmaceutical Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,A,34
+2098,Zall Smart Commerce Group Ltd.,Industrials - Commercial &amp; Professional Services,30,,30
+2099,China Gold International Resources Corp. Ltd.,Materials - Diversified Metals &amp; Minerals,BBB-,B,25
+2128,China Lesso Group Holdings Ltd.,Properties &amp; Construction - Construction,A-,BB,43
+2136,Lifestyle China Group Ltd.,Consumer Discretionary - Specialty Retail,22,,22
+2137,Brii Biosciences Ltd. - B,Healthcare - Pharmaceuticals &amp; Biotechnology,25,,25
+2145,"Shanghai Chicmax Cosmetic Co., Ltd. - H Shares",Healthcare - Other Healthcare,BBB+,,
+2155,Morimatsu International Holdings Co. Ltd.,Industrials - Industrial Engineering,BBB+,,
+2157,"Lepu Biopharma Co., Ltd. - B - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB-,B,
+2158,Yidu Tech Inc.,Healthcare - Other Healthcare,BBB+,B,34
+2160,MicroPort CardioFlow Medtech Corporation - B,Healthcare - Other Healthcare,40,,40
+2162,Keymed Biosciences Inc. - B,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,B,
+2169,Canggang Railway Ltd.,Industrials - Industrial Transportation,BBB-,,
+2171,CARsgen Therapeutics Holdings Ltd. - B,Healthcare - Pharmaceuticals &amp; Biotechnology,B,B,
+2172,MicroPort NeuroScientific Corporation,Healthcare - Other Healthcare,BBB,BBB,
+2186,Luye Pharma Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,BBB,33
+2190,"Zylox-Tonbridge Medical Technology Co., Ltd. - H Shares",Healthcare - Other Healthcare,BBB,BBB,
+2192,"Medlive Technology Co., Ltd.",Healthcare - Other Healthcare,BBB,BB,
+2196,"Shanghai Fosun Pharmaceutical (Group) Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AAA,46
+2198,China Sanjiang Fine Chemicals Co. Ltd.,Materials - Basic Materials,22,,22
+2202,"China Vanke Co., Ltd. - H Shares",Properties &amp; Construction - Properties,AA-,BBB,53
+2208,"Goldwind Science &amp; Technology Co., Ltd. - H Shares",Industrials - Industrial Engineering,A+,BBB,48
+2222,NVC International Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,27,,27
+2228,XtalPi Holdings Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BB+,A,23
+2232,Crystal International Group Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A-,BBB,
+2233,West China Cement Ltd.,Properties &amp; Construction - Construction,A-,BB,31
+2238,"Guangzhou Automobile Group Co., Ltd. - H Shares",Consumer Discretionary - Automobiles,A,A,33
+2252,"Shanghai MicroPort MedBot (Group) Co., Ltd. - B - H Shares",Healthcare - Other Healthcare,BBB,,36
+2255,Haichang Ocean Park Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB,AA,24
+2259,Zijin Gold International Co. Ltd.,Materials - Gold &amp; Precious Metals,B,B,
+2268,WuXi XDC Cayman Inc.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,A,48
+2269,WuXi Biologics (Cayman) Inc.,Healthcare - Pharmaceuticals &amp; Biotechnology,A,AAA,86
+2273,Gushengtang Holdings Ltd.,Healthcare - Other Healthcare,BBB,A,
+2276,"Shanghai Conant Optical Co., Ltd. - H Shares",Healthcare - Other Healthcare,BBB+,,
+2280,HC Group Inc.,Information Technology - Software &amp; Services,25,,25
+2282,MGM China Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,A,BBB,47
+2285,Chervon Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,BBB,B,
+2291,"LEPU ScienTech Medical Technology (Shanghai) Co., Ltd. -H Sh",Healthcare - Other Healthcare,BBB,,
+2298,Cosmo Lady (China) Holdings Co. Ltd.,Consumer Discretionary - Textiles &amp; Clothing,22,,22
+2309,ZO Future Group,Consumer Discretionary - Travel &amp; Leisure,22,,22
+2313,Shenzhou International Group Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A-,A,34
+2314,Lee &amp; Man Paper Manufacturing Ltd.,Materials - Basic Materials,A,CCC,28
+2318,"Ping An Insurance (Group) Co. of China, Ltd. - H Shares",Financials - Insurance,A,AAA,61
+2319,China Mengniu Dairy Co. Ltd.,Consumer Staples - Food &amp; Beverages,AA-,AA,68
+2325,Yunkang Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,48,,48
+2328,PICC Property and Casualty Co. Ltd. - H Shares,Financials - Insurance,BBB,AAA,37
+2329,Glory Health Industry Ltd.,Properties &amp; Construction - Properties,26,,26
+2331,Li Ning Co. Ltd.,Consumer Discretionary - Textiles &amp; Clothing,A-,BB,31
+2333,Great Wall Motor Co. Ltd. - H Shares,Consumer Discretionary - Automobiles,BBB+,BBB,38
+2338,Weichai Power Co. Ltd. - H Shares,Industrials - Industrial Engineering,BBB+,BBB,30
+2342,Comba Telecom Systems Holdings Ltd.,Information Technology - IT Hardware,26,,26
+2343,Pacific Basin Shipping Ltd.,Industrials - Industrial Transportation,AA-,BBB,37
+2348,Dawnrays Pharmaceutical (Holdings) Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,33,,33
+2356,Dah Sing Banking Group Ltd.,Financials - Banks,BBB+,BB,31
+2357,AviChina Industry &amp; Technology Co. Ltd. - H Shares,Industrials - Industrial Engineering,BBB,B,23
+2359,"WuXi AppTec Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AAA,82
+2362,Jinchuan Group International Resources Co. Ltd.,Materials - Diversified Metals &amp; Minerals,A-,B,33
+2367,"Giant Biogene Holding Co., Ltd",Healthcare - Other Healthcare,BBB,BB,22
+2378,Prudential plc,Financials - Insurance,AA-,AA,58
+2380,China Power International Development Ltd.,Utilities - Utilities,A-,AAA,57
+2382,Sunny Optical Technology (Group) Co. Ltd.,Industrials - Industrial Engineering,A+,AA,53
+2386,"SINOPEC Engineering (Group) Co., Ltd. - H Shares",Energy - Oil &amp; Gas,BBB,BBB,38
+2388,BOC Hong Kong (Holdings) Ltd.,Financials - Banks,AA,AAA,43
+2389,Beijing Health (Holdings) Ltd.,Healthcare - Other Healthcare,26,,26
+2390,Zhihu Inc. - W,Consumer Discretionary - Media &amp; Entertainment,38,,38
+2391,Tuya Inc. - W,Information Technology - Software &amp; Services,AAA,AAA,59
+2392,Xuan Wu Cloud Technology Holdings Ltd.,Information Technology - Software &amp; Services,34,,34
+2400,XD Inc.,Information Technology - Software &amp; Services,BBB-,BB,
+2411,Shenzhen Pagoda Industrial (Group) Corporation Ltd. - H Shs,Consumer Staples - Food &amp; Beverages,40,,40
+2419,Dekon Food and Agriculture Group - H Shares,Consumer Staples - Agricultural Products,BBB-,,19
+2423,KE Holdings Inc. - W,Properties &amp; Construction - Properties,BBB+,A,55
+2429,Beijing UBOX Online Technology Corp. - H Shares,Consumer Staples - Food &amp; Beverages,BB+,,
+2443,Autostreets Development Ltd.,Consumer Discretionary - Support Services,BBB-,,
+2453,"Concord Healthcare Group Co., Ltd. - H Shares",Healthcare - Other Healthcare,BB+,,26
+2469,Fenbi Ltd.,Consumer Discretionary - Support Services,A-,A,
+2473,XXF Group Holdings Ltd.,Consumer Discretionary - Automobiles,BBB-,,
+2488,Launch Tech Co. Ltd. - H Shares,Consumer Discretionary - Automobiles,22,,22
+2498,"RoboSense Technology Co., Ltd",Information Technology - Software &amp; Services,BB+,,
+2517,"Guoquan Food (Shanghai) Co., Ltd. - H Shares",Consumer Staples - Food &amp; Beverages,BB+,,
+2518,Autohome Inc. - S,Consumer Discretionary - Specialty Retail,BBB,BBB,43
+2522,"Jiangxi Rimag Group Co., Ltd. - H Shares",Healthcare - Other Healthcare,BB+,,
+2550,Easou Technology Holdings Ltd.,Consumer Discretionary - Media &amp; Entertainment,BB+,,
+2555,"Sichuan Baicha Baidao Industrial Co., Ltd. - H Shares",Consumer Staples - Food &amp; Beverages,BBB-,,
+2556,Marketingforce Management Ltd,Information Technology - Software &amp; Services,BB+,,
+2579,"CNGR Advanced Material Co., Ltd. - H Shares",Materials - Basic Materials,AAA,AAA,76
+2588,BOC Aviation Ltd.,Consumer Discretionary - Travel &amp; Leisure,A-,A,32
+2600,Aluminum Corporation of China Ltd. - H Shares,Materials - Diversified Metals &amp; Minerals,BBB+,BB,53
+2601,"China Pacific Insurance (Group) Co., Ltd. - H Shares",Financials - Insurance,BBB,AAA,31
+2602,Onewo Inc. - H Shares,Properties &amp; Construction - Properties,A-,,66
+2607,"Shanghai Pharmaceuticals Holding Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB-,AA,33
+2608,Sunshine 100 China Holdings Ltd.,Properties &amp; Construction - Properties,25,,25
+2611,"Guotai Haitong Securities Co., Ltd. - H Shares",Financials - Other Financials,BBB,AAA,46
+2616,CStone Pharmaceuticals - B,Healthcare - Pharmaceuticals &amp; Biotechnology,23,,23
+2618,"JD Logistics, Inc.",Industrials - Commercial &amp; Professional Services,BBB,BBB,61
+2628,China Life Insurance Co. Ltd. - H Shares,Financials - Insurance,BBB,AA,36
+2631,"SICC Co., Ltd. - H Shares",Information Technology - Semiconductors,21,,21
+2638,HK Electric Investments Ltd.,Utilities - Utilities,BBB,BBB,59
+2648,"Anjoy Foods Group Co., Ltd. - H Shares",Consumer Staples - Food &amp; Beverages,BB,BB,26
+2666,Genertec Universal Medical Group Co. Ltd.,Healthcare - Other Healthcare,A-,,68
+2669,China Overseas Property Holdings Ltd.,Properties &amp; Construction - Properties,A,BB,33
+2676,"Suzhou Novosense Microelectronics Co., Ltd. - H Shares",Information Technology - Semiconductors,17,,17
+2678,Texhong International Group Ltd.,Consumer Discretionary - Textiles &amp; Clothing,45,,45
+2688,ENN Energy Holdings Ltd.,Utilities - Utilities,AA-,AAA,79
+2689,Nine Dragons Paper (Holdings) Ltd.,Materials - Basic Materials,A,CCC,29
+2696,"Shanghai Henlius Biotech, Inc. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BB,BB,
+2714,"Muyuan Foods Co., Ltd. - H Shares",Consumer Staples - Agricultural Products,BB,BB,44
+2715,"ESTUN AUTOMATION CO., LTD - H Shares",Industrials - Industrial Engineering,47,,47
+2722,"Chongqing Machinery &amp; Electric Co., Ltd. - H Shares",Industrials - Industrial Engineering,28,,28
+2727,Shanghai Electric Group Co. Ltd. - H Shares,Industrials - Industrial Engineering,A,BBB,42
+2777,"Guangzhou R&amp;F Properties Co., Ltd. - H Shares",Properties &amp; Construction - Properties,BBB,CCC,24
+2799,"China CITIC Financial Asset Management Co., Ltd. - H Shares",Financials - Other Financials,BBB-,CCC,23
+2809 (HKD counter) / 9809 (USD counter),Mirae Asset Global Investments (Hong Kong) Limited,,,,
+2858,Yixin Group Ltd.,Financials - Other Financials,BBB+,,
+2865,"Hainan Drinda New Energy Technology Co., Ltd. - H Shares",Industrials - Industrial Engineering,31,,31
+2866,"COSCO SHIPPING Development Co., Ltd. - H Shares",Industrials - Industrial Transportation,A,,48
+2869,Greentown Service Group Co. Ltd.,Properties &amp; Construction - Properties,BBB+,A,31
+2877,China Shineway Pharmaceutical Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,BBB,33
+2880,"Liaoning Port Co., Ltd. - H Shares",Industrials - Industrial Transportation,BBB+,CCC,27
+2883,China Oilfield Services Ltd. - H Shares,Energy - Oil &amp; Gas,A-,B,37
+2888,Standard Chartered PLC,Financials - Banks,BBB+,AA,61
+2899,"Zijin Mining Group Co., Ltd. - H Shares",Materials - Gold &amp; Precious Metals,A,BB,36
+3029 (HKD counter),Mirae Asset Global Investments (Hong Kong) Limited,,,,
+3108 (HKD counter) / 83108( RMB counter),Harvest Global Investments Limited,,,,
+3136 (HKD counter),Hang Seng Investment Management Limited,,,,
+3182 (HKD counter),BOCI-Prudential Asset Management Limited,,,,
+3288,Foshan Haitian Flavouring and Food Co. Ltd. - H Shares,Consumer Staples - Food &amp; Beverages,AA,AA,33
+3301,Ronshine China Holdings Ltd.,Properties &amp; Construction - Properties,23,,23
+3306,JNBY Design Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BBB,BB,
+3309,C-MER Medical Holdings Ltd.,Healthcare - Other Healthcare,19,,19
+3311,China State Construction International Holdings Ltd.,Properties &amp; Construction - Construction,A+,A,45
+3319,"A-Living Smart City Services Co., Ltd. - H Shares",Properties &amp; Construction - Properties,A-,AA,42
+3320,China Resources Pharmaceutical Group Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,A,35
+3323,China National Building Material Co. Ltd. - H Shares,Properties &amp; Construction - Construction,A-,BBB,65
+3328,"Bank of Communications Co., Ltd. - H Shares",Financials - Banks,BBB,BBB,24
+3329,BOCOM International Holdings Co. Ltd.,Financials - Other Financials,CCC,CCC,24
+3336,Ju Teng International Holdings Ltd.,Information Technology - IT Hardware,29,,29
+3337,Anton Oilfield Services Group,Energy - Oil &amp; Gas,37,,37
+3339,Lonking Holdings Ltd.,Industrials - Industrial Engineering,BBB-,,19
+3347,"Hangzhou Tigermed Consulting Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AAA,49
+3360,Far East Horizon Ltd.,Financials - Other Financials,BBB+,AA,54
+3369,"Qinhuangdao Port Co., Ltd. - H Shares",Industrials - Industrial Transportation,BBB,,23
+3377,Sino-Ocean Group Holding Ltd.,Properties &amp; Construction - Properties,67,,67
+3380,Logan Group Co. Ltd.,Properties &amp; Construction - Properties,BBB+,A,36
+3382,Tianjin Port Development Holdings Ltd.,Industrials - Industrial Transportation,29,,29
+3383,Agile Group Holdings Ltd.,Properties &amp; Construction - Properties,35,,35
+3389,Hengdeli Holdings Ltd.,Consumer Discretionary - Specialty Retail,20,,20
+3393,Wasion Holdings Ltd.,Industrials - Industrial Engineering,32,,32
+3396,Legend Holdings Corporation - H Shares,Information Technology - IT Hardware,A+,,37
+3600,Modern Dental Group Ltd.,Healthcare - Other Healthcare,28,,28
+3606,"Fuyao Glass Industry Group Co., Ltd. - H Shares",Consumer Discretionary - Automobiles,BBB+,BB,44
+3613,Beijing Tong Ren Tang Chinese Medicine Co. Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,CCC,28
+3618,"Chongqing Rural Commercial Bank Co., Ltd. - H Shares",Financials - Banks,BBB+,AA,26
+3633,Zhongyu Energy Holdings Ltd.,Utilities - Utilities,BBB+,,31
+3660,"Qfin Holdings, Inc. - S",Financials - Other Financials,A,A,31
+3668,Yancoal Australia Ltd,Energy - Coal,BBB,BBB,37
+3669,China Yongda Automobiles Services Holdings Ltd.,Consumer Discretionary - Specialty Retail,23,,23
+3690,Meituan - W,Consumer Discretionary - Specialty Retail,BBB+,AA,55
+3692,Hansoh Pharmaceutical Group Co. Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AAA,74
+3698,Huishang Bank Corporation Ltd. - H shares,Financials - Banks,26,,26
+3709,EEKA Fashion Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BB+,,
+3718,Beijing Enterprises Urban Resources Group Ltd.,Industrials - Industrial Engineering,55,,55
+3738,Vobile Group Ltd.,Information Technology - Software &amp; Services,BBB-,BB,20
+3750,"Contemporary Amperex Technology Co., Ltd. - H Shares",Industrials - Industrial Engineering,AA,AA,65
+3759,"Pharmaron Beijing Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AA,76
+3800,GCL Technology Holdings Ltd.,Industrials - Industrial Engineering,A,B,53
+3808,Sinotruk (Hong Kong) Ltd.,Industrials - Industrial Engineering,BBB+,AA,42
+3813,Pou Sheng International (Holdings) Ltd.,Consumer Discretionary - Specialty Retail,34,,34
+3818,"China Dongxiang (Group) Co., Ltd.",Consumer Discretionary - Textiles &amp; Clothing,28,,28
+3836,China Harmony Auto Holding Ltd.,Consumer Discretionary - Specialty Retail,27,,27
+3866,"Bank of Qingdao Co., Ltd. - H Shares",Financials - Banks,BBB+,,25
+3868,Xinyi Energy Holdings Ltd.,Utilities - Utilities,A-,A,32
+3877,CSSC (Hong Kong) Shipping Co. Ltd.,Industrials - Industrial Transportation,BBB-,,42
+3883,China Aoyuan Group Ltd.,Properties &amp; Construction - Properties,26,,26
+3888,Kingsoft Corporation Ltd.,Information Technology - Software &amp; Services,BBB,AA,63
+3896,Kingsoft Cloud Holdings Ltd.,Information Technology - Software &amp; Services,BBB,AA,42
+3898,"Zhuzhou CRRC Times Electric Co., Ltd. - H Shares",Industrials - Industrial Engineering,BBB+,AA,36
+3899,CIMC Enric Holdings Ltd.,Energy - Oil &amp; Gas,A-,A,42
+3900,Greentown China Holdings Ltd.,Properties &amp; Construction - Properties,A-,AA,37
+3908,China International Capital Corporation Ltd. - H Shares,Financials - Other Financials,A-,A,29
+3913,KWG Living Group Holdings Ltd.,Properties &amp; Construction - Properties,29,,29
+3931,"CALB Group Co., Ltd. - H Shares",Industrials - Industrial Engineering,A,,43
+3933,"United Laboratories International Holdings Ltd., The",Healthcare - Pharmaceuticals &amp; Biotechnology,A-,AA,43
+3939,Wanguo Gold Group Ltd.,Materials - Gold &amp; Precious Metals,BBB-,,
+3958,DFZQ - H Shares,Financials - Other Financials,A,AAA,54
+3968,"China Merchants Bank Co., Ltd. - H Shares",Financials - Banks,A-,AAA,50
+3969,China Railway Signal &amp; Communication Corporation Ltd. -H Shs,Industrials - Industrial Engineering,A-,BB,27
+3983,China BlueChemical Ltd. - H Shares,Materials - Basic Materials,CCC,CCC,27
+3986,GigaDevice Semiconductor Inc. - H Shares,Information Technology - Semiconductors,BB,BB,44
+3988,Bank of China Ltd. - H Shares,Financials - Banks,A-,AA,33
+3989,Capital Environment Holdings Ltd.,Utilities - Utilities,28,,28
+3990,Midea Real Estate Holding Ltd.,Properties &amp; Construction - Properties,BBB,,31
+3993,CMOC Group Ltd. - H Shares,Materials - Diversified Metals &amp; Minerals,BBB,A,47
+3996,China Energy Engineering Corporation Ltd. - H Shares,Industrials - Industrial Engineering,BBB-,BBB,27
+3998,Bosideng International Holdings Ltd.,Consumer Discretionary - Textiles &amp; Clothing,BBB+,AAA,70
+4249,The Government of the HKSAR of the PRC,,,,
+4250,The Government of the HKSAR of the PRC,,,,
+4252,The Government of the HKSAR of the PRC,,,,
+4259,The Government of the HKSAR of the PRC,,,,
+4260,The Government of the HKSAR of the PRC,,,,
+4261,The Government of the HKSAR of the PRC,,,,
+4262,The Government of the HKSAR of the PRC,,,,
+4263,The Government of the HKSAR of the PRC,,,,
+4264,The Government of the HKSAR of the PRC,,,,
+4267,The Government of the HKSAR of the PRC,,,,
+4268,The Government of the HKSAR of the PRC,,,,
+4269,The Government of the HKSAR of the PRC,,,,
+4270,The Government of the HKSAR of the PRC,,,,
+4271,The Government of the HKSAR of the PRC,,,,
+4273,The Government of the HKSAR of the PRC,,,,
+4276,The Government of the HKSAR of the PRC,,,,
+4277,The Government of the HKSAR of the PRC,,,,
+4278,The Government of the HKSAR of the PRC,,,,
+4280,The Government of the HKSAR of the PRC,,,,
+4281,The Government of the HKSAR of the PRC,,,,
+4297,The Govt of the HKSAR of the PRC,,,,
+4298,The Govt of the HKSAR of the PRC,,,,
+4299,The Govt of the HKSAR of the PRC,,,,
+4463,Greentown China Holdings Ltd.,,,,
+4483,Bank of China Ltd. Hungarian Branch,,,,
+4485,"Bank of China Ltd., Johannesburg Branch",,,,
+4490,Bank of China (Hong Kong) Ltd.,,,,
+4521,"Agricultural Bank of China Ltd., Hong Kong Branch",,,,
+4595,"Bank of China Ltd., acting through its Sydney branch",,,,
+5082,Swire Properties MTN Financing Ltd.,,,,
+5114,"Bank of China Ltd., London Branch",,,,
+5115,"Bank of China Ltd., London Branch",,,,
+5119,Industrial and Commercial Bank of China (Asia) Ltd.,,,,
+5173,"China Construction Bank Corporation, Hong Kong Branch",,,,
+5209,"Bank of China Ltd., Macau Branch",,,,
+5210,"Bank of China Ltd., Luxembourg Branch",,,,
+5217,"Chongqing Southern New City Industrial Inv Gp Co., Ltd.",,,,
+5234,"Industrial Bank Co., Ltd. Hong Kong Branch",,,,
+5237,China Construction Bank Corporation London Branch,,,,
+5244,"Hong Kong Mortgage Corporation Ltd., The",,,,
+5245,Castle Peak Power Finance Co. Ltd.,,,,
+5249,"Hong Kong Mortgage Corporation Ltd., The",,,,
+5250,"Hong Kong Mortgage Corporation Ltd., The",,,,
+5252,MTR Corporation Ltd.,,,,
+5281,"Industrial Bank Co., Ltd. Hong Kong Branch",,,,
+5285,MTR Corporation Ltd.,,,,
+5312,NWD Finance (BVI) Ltd.,,,,
+5317,"Bank of China Ltd., Frankfurt Branch",,,,
+5321,NWD (MTN) Ltd.,,,,
+5382,Lenovo Group Ltd.,,,,
+6012,"Industrial and Commercial Bank of China Ltd., HK Branch",,,,
+6030,CITIC Securities Co. Ltd. - H Shares,Financials - Other Financials,A-,AA,33
+6031,"SANY Heavy Industry Co., Ltd. - H Shares",Industrials - Industrial Engineering,A,A,29
+6049,"Poly Property Services Co., Ltd. - H Shares",Properties &amp; Construction - Properties,BBB+,,36
+6055,China Tobacco International (HK) Co. Ltd.,Consumer Staples - Food &amp; Beverages,BB+,B,36
+6060,"ZhongAn Online P &amp; C Insurance Co., Ltd. - H Shares",Financials - Insurance,BBB,A,36
+6066,"CSC Financial Co., Ltd. - H Shares",Financials - Other Financials,BBB+,AA,38
+6069,SY Holdings Group Ltd.,Financials - Other Financials,A-,AA,31
+6078,"Hygeia Healthcare Holdings Co., Ltd.",Healthcare - Other Healthcare,BBB+,BBB,31
+6088,FIT Hon Teng Ltd.,Industrials - Industrial Engineering,A+,,37
+6098,Country Garden Services Holdings Co. Ltd.,Properties &amp; Construction - Properties,A-,AA,35
+6099,"China Merchants Securities Co., Ltd. - H Shares",Financials - Other Financials,BBB+,A,27
+6100,Tongdao Liepin Group,Consumer Discretionary - Support Services,32,,32
+6110,Topsports International Holdings Ltd.,Consumer Discretionary - Specialty Retail,BBB,AA,38
+6127,"JOINN Laboratories (China) Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB-,,28
+6136,Kangda International Environmental Co. Ltd.,Utilities - Utilities,25,,25
+6158,Zhenro Properties Group Ltd.,Properties &amp; Construction - Properties,30,,30
+6160,BeOne Medicines Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AA,41
+6169,China YuHua Education Corporation Ltd.,Consumer Discretionary - Support Services,26,,26
+6178,Everbright Securities Co. Ltd. - H Shares,Financials - Other Financials,BBB,B,23
+6181,"Laopu Gold Co., Ltd. - H Shares",Consumer Discretionary - Textiles &amp; Clothing,BB,A,17
+6185,CanSino Biologics Inc. - H Shares,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,BBB,46
+6186,China Feihe Ltd.,Consumer Staples - Food &amp; Beverages,BBB,BB,43
+6196,"Bank of Zhengzhou Co., Ltd. - H Shares",Financials - Banks,BBB,,29
+6198,"Qingdao Port International Co., Ltd. - H Shares",Industrials - Industrial Transportation,BBB,,28
+6199,"Bank of Guizhou Co., Ltd. - H Shares",Financials - Banks,33,,33
+6608,Bairong Inc. - W,Information Technology - Software &amp; Services,BBB,,36
+6613,"Lens Technology Co., Ltd. - H Shares",Industrials - Industrial Engineering,B,B,16
+6616,Global New Material International Holdings Ltd.,Materials - Basic Materials,BBB,,
+6618,JD Health International Inc.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AA,65
+6623,Lufax Holding Ltd,Financials - Other Financials,A,A,38
+6626,Yuexiu Services Group Ltd.,Properties &amp; Construction - Properties,54,,54
+6633,Qingci Games Inc.,Information Technology - Software &amp; Services,25,,25
+6639,Arrail Group Ltd.,Healthcare - Other Healthcare,39,,39
+6655,"HUAXIN BUILDING MATERIALS GROUP CO., LTD. - H Shares",Properties &amp; Construction - Construction,BBB+,,42
+6660,"AIM Vaccine Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,30,,30
+6666,Evergrande Property Services Group Ltd.,Properties &amp; Construction - Properties,BBB,,32
+6680,"JL Mag Rare-Earth Co., Ltd. - H Shares",Materials - Diversified Metals &amp; Minerals,BB+,A,59
+6682,"Phancy Group Co., Ltd. - H Shares",Information Technology - Software &amp; Services,BB+,,36
+6683,Star Plus Legend Holdings Ltd.,Consumer Staples - Food &amp; Beverages,BB,,
+6686,Noah Holdings Private Wealth and Asset Management Ltd.,Financials - Other Financials,BBB,BBB,44
+6690,"Haier Smart Home Co., Ltd. - H Shares",Consumer Discretionary - Household Goods &amp; Electronics,BBB,AA,42
+6693,"Chifeng Jilong Gold Mining Co., Ltd. - H Shares",Materials - Gold &amp; Precious Metals,BB,BB,40
+6698,STAR CM Holdings Ltd.,Consumer Discretionary - Media &amp; Entertainment,22,,22
+6699,Angelalign Technology Inc.,Healthcare - Other Healthcare,BBB,A,35
+6806,"Shenwan Hongyuan Group Co., Ltd. - H Shares",Financials - Other Financials,BBB,A,48
+6808,Sun Art Retail Group Ltd.,Consumer Staples - Consumer Staple Retailers,A-,,43
+6809,"Montage Technology Co., Ltd. - H Shares",Information Technology - Semiconductors,BB,BB,35
+6818,China Everbright Bank Co. Ltd. - H Shares,Financials - Banks,A-,AA,32
+6821,"Asymchem Laboratories (Tianjin) Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,,71
+6823,HKT Ltd.,Telecommunications - Telecommunications,A,A,52
+6826,"Shanghai Haohai Biological Technology Co., Ltd. - H Shares",Healthcare - Other Healthcare,BBB,,34
+6828,Beijing Gas Blue Sky Holdings Ltd.,Utilities - Utilities,23,,23
+6855,Ascentage Pharma Group International - B,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB+,AA,
+6862,Haidilao International Holding Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB+,B,32
+6865,"Flat Glass Group Co., Ltd. - H Shares",Industrials - Industrial Engineering,BBB+,A,38
+6869,Yangtze Optical Fibre and Cable Joint Stock Ltd. Co. - H Shs,Information Technology - IT Hardware,A,,40
+6878,Differ Group Auto Ltd.,Properties &amp; Construction - Properties,23,,23
+6881,"China Galaxy Securities Co., Ltd. - H Shares",Financials - Other Financials,BBB+,BBB,27
+6886,"Huatai Securities Co., Ltd. - H Shares",Financials - Other Financials,BBB+,AAA,28
+6887,"Sunshine Lake Pharma Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BB,BB,35
+6889,"DYNAM JAPAN HOLDINGS Co., Ltd.",Consumer Discretionary - Travel &amp; Leisure,21,,21
+6936,"S.F. Holding Co., Ltd. - H Shares",Industrials - Industrial Transportation,A+,AA,56
+6955,"Shandong Boan Biotechnology Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,,
+6963,Sunshine Insurance Group Co. Ltd. - H Shares,Financials - Insurance,BBB-,A,30
+6969,Smoore International Holdings Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,BBB+,BBB,38
+6979,ZJLD Group Inc,Consumer Staples - Food &amp; Beverages,BBB-,,67
+6990,"Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. - B - H Sh",Healthcare - Pharmaceuticals &amp; Biotechnology,BB+,AA,26
+6993,Blue Moon Group Holdings Ltd.,Consumer Staples - Consumer Staple Retailers,BBB+,CCC,38
+7489,"VOYAH Automotive Technology Co., Ltd. - H Shares",Consumer Discretionary - Automobiles,BBB,BBB,
+8057,Madison Holdings Group Ltd.,Financials - Other Financials,28,,28
+8083,Youzan Technology Ltd.,Information Technology - Software &amp; Services,27,,27
+8227,"Xi'an Haitian Antenna Technologies Co., Ltd. - H Shares",Information Technology - IT Hardware,26,,26
+8279,AGTech Holdings Ltd.,Financials - Other Financials,27,,27
+9618,"JD.com, Inc. - SW",Consumer Discretionary - Specialty Retail,BBB+,AA,71
+9626,Bilibili Inc. - W,Consumer Discretionary - Media &amp; Entertainment,BBB-,AA,33
+9633,"Nongfu Spring Co., Ltd. - H Shares",Consumer Staples - Food &amp; Beverages,A,A,69
+9636,JF SmartInvest Holdings Ltd,Information Technology - Software &amp; Services,BBB,,
+9638,Ferretti S.p.A.,Industrials - Industrial Engineering,BBB,BBB,27
+9658,SUPER HI INTERNATIONAL HOLDING LTD.,Consumer Discretionary - Travel &amp; Leisure,BBB-,A,25
+9660,Horizon Robotics - W,Information Technology - Software &amp; Services,AA,AA,
+9668,"China Bohai Bank Co., Ltd. - H Shares",Financials - Banks,A,A,27
+9669,Beisen Holding Ltd.,Information Technology - Software &amp; Services,59,,59
+9676,"Shiyue Daotian Group Co., Ltd. - H Shares",Consumer Staples - Agricultural Products,BB,,21
+9688,Zai Lab Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB-,A,42
+9690,TUHU Car Inc. - W,Consumer Discretionary - Specialty Retail,A-,,34
+9696,Tianqi Lithium Corporation - H Shares,Materials - Diversified Metals &amp; Minerals,BBB,A,62
+9698,GDS Holdings Ltd. - SW,Information Technology - Software &amp; Services,BBB+,AAA,63
+9699,"Hangzhou SF Intra-city Industrial Co., Ltd. - H Shares",Industrials - Industrial Transportation,BBB+,,50
+9858,China Youran Dairy Group Ltd.,Consumer Staples - Food &amp; Beverages,BBB+,,72
+9860,ADICON Holdings Ltd.,Healthcare - Other Healthcare,BBB,,
+9863,"Zhejiang Leapmotor Technology Co., Ltd. - H Shares",Consumer Discretionary - Automobiles,BBB,AA,39
+9866,NIO Inc. - SW,Consumer Discretionary - Automobiles,BBB+,AA,54
+9868,XPeng Inc. - W,Consumer Discretionary - Automobiles,BBB,AAA,50
+9878,"Huitongda Network Co., Ltd. - H Shares",Consumer Discretionary - Specialty Retail,BBB,,61
+9880,UBTECH ROBOTICS CORP LTD - H Shares,Information Technology - Software &amp; Services,BBB-,A,
+9885,YSB Inc.,Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,,
+9888,"Baidu, Inc. - SW",Consumer Discretionary - Media &amp; Entertainment,A+,AA,60
+9890,Tanwan Inc.,Information Technology - Software &amp; Services,BB+,,
+9896,MINISO Group Holding Ltd.,Consumer Discretionary - Specialty Retail,BBB,A,43
+9898,Weibo Corporation - SW,Consumer Discretionary - Media &amp; Entertainment,BBB,AA,46
+9899,NetEase Cloud Music Inc.,Consumer Discretionary - Media &amp; Entertainment,BBB-,BB,20
+9901,New Oriental Education &amp; Technology Group Inc. - S,Consumer Discretionary - Support Services,BBB-,AAA,17
+9911,Newborn Town Inc.,Consumer Discretionary - Media &amp; Entertainment,27,,27
+9922,Jiumaojiu International Holdings Ltd.,Consumer Discretionary - Travel &amp; Leisure,BBB+,BBB,28
+9923,Yeahka Ltd.,Financials - Other Financials,A-,,63
+9926,"Akeso, Inc.",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,B,25
+9927,"Seres Group Co., Ltd. - H Shares",Consumer Discretionary - Automobiles,AAA,AAA,41
+9930,Horizon Construction Development Ltd.,Industrials - Industrial Engineering,58,,58
+9959,Linklogis Inc. - W,Information Technology - Software &amp; Services,BB,BB,37
+9961,Trip.com Group Ltd. - S,Consumer Discretionary - Travel &amp; Leisure,BBB,A,37
+9966,Alphamab Oncology - B,Healthcare - Pharmaceuticals &amp; Biotechnology,BB,BB,
+9969,InnoCare Pharma Ltd.,Healthcare - Pharmaceuticals &amp; Biotechnology,A-,BB,41
+9979,Greentown Management Holdings Co. Ltd.,Properties &amp; Construction - Properties,BBB,,
+9980,"Eastroc Beverage (Group) Co., Ltd. - H Shares",Consumer Staples - Food &amp; Beverages,B,B,25
+9981,"Shenzhen Woer Heat-Shrinkable Material Co., Ltd. - H Shares",Industrials - Industrial Engineering,6,,6
+9985,WEILONG Delicious Global Holdings Ltd.,Consumer Staples - Food &amp; Beverages,BBB,,30
+9987,"Yum China Holdings, Inc.",Consumer Discretionary - Travel &amp; Leisure,A,AA,81
+9988,Alibaba Group Holding Ltd. - W,Consumer Discretionary - Specialty Retail,A-,BBB,52
+9989,"Shenzhen Hepalink Pharmaceutical Group Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,,28
+9991,Baozun Inc. - W,Consumer Discretionary - Specialty Retail,50,,50
+9992,Pop Mart International Group Ltd.,Consumer Discretionary - Household Goods &amp; Electronics,BBB,AA,30
+9993,Radiance Holdings (Group) Co. Ltd.,Properties &amp; Construction - Properties,BBB-,BB,27
+9995,"RemeGen Co., Ltd. - H Shares",Healthcare - Pharmaceuticals &amp; Biotechnology,BBB,B,30
+9996,Peijia Medical Ltd. - B,Healthcare - Other Healthcare,29,,29
+9999,"NetEase, Inc. - S",Information Technology - Software &amp; Services,BBB+,AAA,50
+40181,"Bank of China Ltd., Macau Branch",,,,
+40182,"Bank of China Ltd., Macau Branch",,,,
+85910,Agricultural Development Bank of China,,,,

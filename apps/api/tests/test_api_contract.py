@@ -11,6 +11,7 @@ os.environ["DATABASE_URL"] = "sqlite:///./test_api_contract.db"
 from app.db import SessionLocal, init_db  # noqa: E402
 from app.main import app  # noqa: E402
 from app.models import Chunk, Company, Document, ESGSignal  # noqa: E402
+from app.services.model_prediction import CompanyPrediction  # noqa: E402
 from app.utils.rating import rating_to_ordinal  # noqa: E402
 
 
@@ -114,7 +115,26 @@ def test_compare() -> None:
     assert len(payload["companies"]) >= 1
 
 
-def test_chat_query() -> None:
+def test_chat_query(monkeypatch) -> None:
+    from app.routers import chat as chat_router
+
+    def fake_retrieve_chunks(*args, **kwargs):
+        return [
+            {
+                "citation_id": "C1",
+                "stock_code": "00001",
+                "company_name": "CKH HOLDINGS",
+                "doc_type": "esg_report",
+                "source_file": "00001.pdf",
+                "page_no": 4,
+                "snippet": "Governance risk controls improved.",
+                "text": "Governance risk controls improved.",
+            }
+        ]
+
+    monkeypatch.setattr(chat_router, "retrieve_chunks", fake_retrieve_chunks)
+    monkeypatch.setattr(chat_router, "chat_completion", lambda **kwargs: "Mock answer with citation [C1].")
+
     resp = client.post(
         "/api/v1/chat/query",
         json={
@@ -128,3 +148,31 @@ def test_chat_query() -> None:
     payload = resp.json()
     assert "answer" in payload
     assert isinstance(payload["citations"], list)
+
+
+def test_run_prediction_endpoint(monkeypatch) -> None:
+    from app.routers import predictions as predictions_router
+
+    def fake_predict_company_rating(db, stock_code: str) -> CompanyPrediction:
+        return CompanyPrediction(
+            stock_code=stock_code,
+            company_name="CKH HOLDINGS",
+            predicted_score=54.2,
+            predicted_esg_rating="A",
+            confidence=0.72,
+            model_version="test-model",
+            num_chunks=8,
+            doc_count=1,
+        )
+
+    monkeypatch.setattr(predictions_router, "predict_company_rating", fake_predict_company_rating)
+
+    resp = client.post("/api/v1/predictions/00001")
+    assert resp.status_code == 200
+    payload = resp.json()
+    assert payload["stock_code"] == "00001"
+    assert payload["company_name"] == "CKH HOLDINGS"
+    assert payload["predicted_esg_rating"] == "A"
+    assert payload["predicted_score"] == 54.2
+    assert payload["num_chunks"] == 8
+    assert payload["doc_count"] == 1

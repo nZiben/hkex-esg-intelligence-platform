@@ -4,7 +4,7 @@ from collections.abc import Generator
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session, sessionmaker
 
@@ -53,12 +53,35 @@ def init_db() -> None:
             with engine.begin() as conn:
                 conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
         Base.metadata.create_all(bind=engine)
+        _ensure_prediction_columns()
     except SQLAlchemyError as exc:
         if active_database_url.startswith("postgresql"):
             _fallback_to_sqlite(exc)
             Base.metadata.create_all(bind=engine)
+            _ensure_prediction_columns()
         else:
             raise
+
+
+def _ensure_prediction_columns() -> None:
+    inspector = inspect(engine)
+    if "predictions" not in inspector.get_table_names():
+        return
+
+    existing = {column["name"] for column in inspector.get_columns("predictions")}
+    additions = {
+        "predicted_score": "FLOAT",
+        "num_chunks": "INTEGER",
+        "doc_count": "INTEGER",
+    }
+
+    missing = [(name, sql_type) for name, sql_type in additions.items() if name not in existing]
+    if not missing:
+        return
+
+    with engine.begin() as conn:
+        for name, sql_type in missing:
+            conn.execute(text(f"ALTER TABLE predictions ADD COLUMN {name} {sql_type}"))
 
 
 def get_db() -> Generator[Session, None, None]:

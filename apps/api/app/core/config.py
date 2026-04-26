@@ -39,6 +39,14 @@ class Settings(BaseSettings):
     chunk_size: int = Field(default=900, alias="CHUNK_SIZE")
     chunk_overlap: int = Field(default=120, alias="CHUNK_OVERLAP")
 
+    prediction_model_root: str = Field(
+        default=str(REPO_ROOT / "models"),
+        alias="PREDICTION_MODEL_ROOT",
+    )
+    prediction_model_version: str = Field(default="hkqaa-deep-regressor-v1", alias="PREDICTION_MODEL_VERSION")
+    prediction_max_chunks: int = Field(default=400, alias="PREDICTION_MAX_CHUNKS")
+    prediction_batch_size: int = Field(default=64, alias="PREDICTION_BATCH_SIZE")
+
 
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
