@@ -42,15 +42,16 @@ Output:
 
 ## On-demand ESG prediction
 
-Model artifacts live under local `models/` and are intentionally ignored by Git. Copy `models/retriever/` and `models/predictor/` from the teammate handoff folder before running this workflow.
+Model artifacts live under local `models/` and are intentionally ignored by Git. Copy `models/retriever/` and `models/predictor/` from the teammate handoff folder, and keep `models/topic_classifier/classifier.pt` from the topic training run before using the prediction workflows.
 
 Start the API, then run:
 
 ```bash
 curl -X POST http://localhost:8000/api/v1/predictions/00001
+curl -X POST "http://localhost:8000/api/v1/predictions/00001/insights?kind=all"
 ```
 
-Use the web page at `/predictions` to run the same workflow from the UI.
+Use the web page at `/predictions` to run the same workflows from the UI. Select one company, use `Run Rating` for the ESG grade, or select a signal mode and click its run button.
 
 ## Submission artifacts
 

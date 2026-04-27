@@ -131,9 +131,10 @@ This repo also integrates the teammate-trained HKQAA prediction model:
 
 - `models/retriever/`
 - `models/predictor/`
+- `models/topic_classifier/classifier.pt`
 - `esg_ratings.csv`
 
-The model weight files are intentionally not committed to Git. Keep them locally under `models/`, copied from the teammate handoff folder, before running on-demand predictions. The small `esg_ratings.csv` reference file is kept in the repo.
+The model weight files are intentionally not committed to Git. Keep them locally under `models/`, copied from the teammate handoff folder or generated locally, before running on-demand predictions. The small `esg_ratings.csv` reference file is kept in the repo.
 
 Run an on-demand prediction through the API:
 
@@ -141,4 +142,10 @@ Run an on-demand prediction through the API:
 curl -X POST http://localhost:8000/api/v1/predictions/00001
 ```
 
-The UI exposes this workflow at `/predictions`.
+Run topic/theme/sentiment signal predictions through the API:
+
+```bash
+curl -X POST "http://localhost:8000/api/v1/predictions/00001/insights?kind=all"
+```
+
+The UI exposes these workflows at `/predictions`. Select one company, click `Run Rating` for the ESG score, or choose `Topics`, `Themes`, `Sentiment`, or `All Signals` and click the matching signal run button.

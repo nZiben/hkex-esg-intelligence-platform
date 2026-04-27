@@ -133,7 +133,16 @@ async function http<T>(path: string, init?: RequestInit): Promise<T> {
 
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`API ${res.status}: ${text}`);
+    let detail = text;
+    try {
+      const payload = JSON.parse(text) as { detail?: unknown };
+      if (typeof payload.detail === 'string') {
+        detail = payload.detail;
+      }
+    } catch {
+      // Keep the raw response body when the API does not return JSON.
+    }
+    throw new Error(`API ${res.status}: ${detail}`);
   }
 
   return res.json() as Promise<T>;

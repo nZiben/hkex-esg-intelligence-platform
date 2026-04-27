@@ -21,6 +21,13 @@ const predictionModes: { kind: AuxiliaryPredictionKind; label: string }[] = [
   { kind: 'sentiment', label: 'Sentiment' },
 ];
 
+const predictionModeLabels: Record<AuxiliaryPredictionKind, string> = {
+  all: 'All Signals',
+  topics: 'Topics',
+  themes: 'Themes',
+  sentiment: 'Sentiment',
+};
+
 const pillarLabels: Record<string, string> = {
   E: 'Environmental',
   S: 'Social',
@@ -129,6 +136,7 @@ export default function PredictionsPage() {
 
   const runAt = result ? formatRunAt(result.run_at) : null;
   const insightRunAt = insightResult ? formatRunAt(insightResult.run_at) : null;
+  const selectedSignalLabel = predictionModeLabels[insightKind];
 
   return (
     <section className="stack-xl">
@@ -186,19 +194,19 @@ export default function PredictionsPage() {
                 </button>
               ))}
             </div>
+            <button
+              type="button"
+              className="button-link primary signal-run-button"
+              onClick={handleRunInsights}
+              disabled={runningInsights}
+            >
+              {runningInsights ? `Running ${selectedSignalLabel}...` : `Run ${selectedSignalLabel}`}
+            </button>
           </div>
 
           <div className="inline-actions">
             <button type="button" className="button-link primary" onClick={handleRunPrediction} disabled={running}>
               {running ? 'Running Rating...' : 'Run Rating'}
-            </button>
-            <button
-              type="button"
-              className="button-link secondary"
-              onClick={handleRunInsights}
-              disabled={runningInsights}
-            >
-              {runningInsights ? 'Running Signals...' : 'Run Signals'}
             </button>
             {selectedCompany ? (
               <Link href={`/company/${selectedCompany.stock_code}`} className="button-link secondary">

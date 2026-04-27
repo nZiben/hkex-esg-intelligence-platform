@@ -762,6 +762,10 @@ main.page {
   background: rgba(216, 235, 227, 0.9);
 }
 
+.signal-run-button {
+  width: fit-content;
+}
+
 .compact-head {
   margin-bottom: 0;
 }
@@ -933,5 +937,9 @@ main.page {
 
   .segmented-control {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .signal-run-button {
+    width: 100%;
   }
 }
