@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
+from enum import Enum
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -78,6 +79,48 @@ class PredictionRunResponse(BaseModel):
     num_chunks: int
     doc_count: int
     run_at: datetime
+
+
+class AuxiliaryPredictionKind(str, Enum):
+    all = "all"
+    topics = "topics"
+    themes = "themes"
+    sentiment = "sentiment"
+
+
+class TopicPredictionOut(BaseModel):
+    label: str
+    probability: float
+    predicted: bool
+
+
+class ThemePredictionOut(BaseModel):
+    theme: str
+    mentions: int
+    share: float
+
+
+class SentimentPredictionOut(BaseModel):
+    pillar: str
+    sentiment: str
+    positive_similarity: float
+    negative_similarity: float
+    margin: float
+
+
+class AuxiliaryPredictionRunResponse(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
+    stock_code: str
+    company_name: str
+    prediction_type: AuxiliaryPredictionKind
+    model_version: str
+    num_chunks: int
+    doc_count: int
+    run_at: datetime
+    topics: list[TopicPredictionOut] = Field(default_factory=list)
+    themes: list[ThemePredictionOut] = Field(default_factory=list)
+    sentiment: list[SentimentPredictionOut] = Field(default_factory=list)
 
 
 class CompanyProfileResponse(BaseModel):

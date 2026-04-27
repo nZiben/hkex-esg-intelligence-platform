@@ -11,6 +11,12 @@ os.environ["DATABASE_URL"] = "sqlite:///./test_api_contract.db"
 from app.db import SessionLocal, init_db  # noqa: E402
 from app.main import app  # noqa: E402
 from app.models import Chunk, Company, Document, ESGSignal  # noqa: E402
+from app.services.auxiliary_predictions import (  # noqa: E402
+    AuxiliaryPrediction,
+    SentimentPrediction,
+    ThemePrediction,
+    TopicPrediction,
+)
 from app.services.model_prediction import CompanyPrediction  # noqa: E402
 from app.utils.rating import rating_to_ordinal  # noqa: E402
 
@@ -176,3 +182,39 @@ def test_run_prediction_endpoint(monkeypatch) -> None:
     assert payload["predicted_score"] == 54.2
     assert payload["num_chunks"] == 8
     assert payload["doc_count"] == 1
+
+
+def test_run_prediction_insights_endpoint(monkeypatch) -> None:
+    from app.routers import predictions as predictions_router
+
+    def fake_run_auxiliary_prediction(db, stock_code: str, prediction_type: str) -> AuxiliaryPrediction:
+        return AuxiliaryPrediction(
+            stock_code=stock_code,
+            company_name="CKH HOLDINGS",
+            prediction_type=prediction_type,
+            model_version="test-aux",
+            num_chunks=8,
+            doc_count=1,
+            topics=[TopicPrediction(label="Environment", probability=0.81, predicted=True)],
+            themes=[ThemePrediction(theme="Carbon Footprint", mentions=4, share=0.5)],
+            sentiment=[
+                SentimentPrediction(
+                    pillar="E",
+                    sentiment="positive",
+                    positive_similarity=0.72,
+                    negative_similarity=0.61,
+                    margin=0.11,
+                )
+            ],
+        )
+
+    monkeypatch.setattr(predictions_router, "run_auxiliary_prediction", fake_run_auxiliary_prediction)
+
+    resp = client.post("/api/v1/predictions/00001/insights", params={"kind": "all"})
+    assert resp.status_code == 200
+    payload = resp.json()
+    assert payload["stock_code"] == "00001"
+    assert payload["prediction_type"] == "all"
+    assert payload["topics"][0]["label"] == "Environment"
+    assert payload["themes"][0]["theme"] == "Carbon Footprint"
+    assert payload["sentiment"][0]["pillar"] == "E"

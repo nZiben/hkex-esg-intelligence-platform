@@ -72,6 +72,41 @@ export type PredictionRunResponse = {
   run_at: string;
 };
 
+export type AuxiliaryPredictionKind = 'all' | 'topics' | 'themes' | 'sentiment';
+
+export type TopicPrediction = {
+  label: string;
+  probability: number;
+  predicted: boolean;
+};
+
+export type ThemePrediction = {
+  theme: string;
+  mentions: number;
+  share: number;
+};
+
+export type SentimentPrediction = {
+  pillar: string;
+  sentiment: string;
+  positive_similarity: number;
+  negative_similarity: number;
+  margin: number;
+};
+
+export type AuxiliaryPredictionRunResponse = {
+  stock_code: string;
+  company_name: string;
+  prediction_type: AuxiliaryPredictionKind;
+  model_version: string;
+  num_chunks: number;
+  doc_count: number;
+  run_at: string;
+  topics: TopicPrediction[];
+  themes: ThemePrediction[];
+  sentiment: SentimentPrediction[];
+};
+
 export type CompareCompanyCard = {
   stock_code: string;
   company_name: string;
@@ -134,6 +169,12 @@ export async function askChat(question: string, stockCodes?: string[]) {
 
 export async function runPrediction(stockCode: string) {
   return http<PredictionRunResponse>(`/api/v1/predictions/${stockCode}`, {
+    method: 'POST',
+  });
+}
+
+export async function runPredictionInsights(stockCode: string, kind: AuxiliaryPredictionKind) {
+  return http<AuxiliaryPredictionRunResponse>(`/api/v1/predictions/${stockCode}/insights?kind=${kind}`, {
     method: 'POST',
   });
 }

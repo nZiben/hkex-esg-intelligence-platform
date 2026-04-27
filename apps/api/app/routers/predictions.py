@@ -1,11 +1,15 @@
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException
+from dataclasses import asdict
+from datetime import datetime, timezone
+
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from app.db import get_db
 from app.models import Prediction
-from app.schemas import PredictionRunResponse
+from app.schemas import AuxiliaryPredictionKind, AuxiliaryPredictionRunResponse, PredictionRunResponse
+from app.services.auxiliary_predictions import run_auxiliary_prediction
 from app.services.model_prediction import (
     PredictionInputError,
     PredictionModelUnavailable,
@@ -47,4 +51,31 @@ def run_company_prediction(stock_code: str, db: Session = Depends(get_db)) -> Pr
         num_chunks=result.num_chunks,
         doc_count=result.doc_count,
         run_at=prediction.run_at,
+    )
+
+
+@router.post("/predictions/{stock_code}/insights", response_model=AuxiliaryPredictionRunResponse)
+def run_company_prediction_insights(
+    stock_code: str,
+    kind: AuxiliaryPredictionKind = Query(default=AuxiliaryPredictionKind.all),
+    db: Session = Depends(get_db),
+) -> AuxiliaryPredictionRunResponse:
+    try:
+        result = run_auxiliary_prediction(db, stock_code, prediction_type=kind.value)
+    except PredictionInputError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except PredictionModelUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+    return AuxiliaryPredictionRunResponse(
+        stock_code=result.stock_code,
+        company_name=result.company_name,
+        prediction_type=kind,
+        model_version=result.model_version,
+        num_chunks=result.num_chunks,
+        doc_count=result.doc_count,
+        run_at=datetime.now(timezone.utc),
+        topics=[asdict(item) for item in result.topics],
+        themes=[asdict(item) for item in result.themes],
+        sentiment=[asdict(item) for item in result.sentiment],
     )

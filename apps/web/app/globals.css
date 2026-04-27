@@ -723,6 +723,88 @@ main.page {
   width: auto;
 }
 
+.prediction-mode-block,
+.prediction-results,
+.prediction-result-block {
+  display: grid;
+  gap: 16px;
+}
+
+.prediction-mode-block {
+  margin-top: 20px;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  padding: 6px;
+  border-radius: 20px;
+  border: 1px solid rgba(35, 95, 82, 0.12);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.segment-button {
+  min-height: 42px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 800;
+  transition: background 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.segment-button:hover,
+.segment-button.active {
+  color: var(--accent-strong);
+  background: rgba(216, 235, 227, 0.9);
+}
+
+.compact-head {
+  margin-bottom: 0;
+}
+
+.prediction-result-block {
+  padding-top: 18px;
+  border-top: 1px solid rgba(60, 67, 57, 0.08);
+}
+
+.prediction-result-block:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.sentiment-card {
+  min-height: 180px;
+}
+
+.sentiment-card.positive {
+  background: linear-gradient(180deg, rgba(216, 235, 227, 0.82), rgba(255, 250, 241, 0.98));
+}
+
+.sentiment-card.negative {
+  background: linear-gradient(180deg, rgba(242, 221, 207, 0.82), rgba(255, 250, 241, 0.98));
+}
+
+.sentiment-card.neutral {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(249, 246, 239, 0.98));
+}
+
+.sentiment-margin {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .citation-list {
   display: grid;
   gap: 10px;
@@ -847,5 +929,9 @@ main.page {
   .leader-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .segmented-control {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
